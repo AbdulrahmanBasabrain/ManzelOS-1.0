@@ -35,3 +35,4 @@ and apply this concept in the employee save method and property manager method
 [ ] fix all the dtos just to give necessary info
 [ ] delete the owner number of assets field because you don't need it and it add a ton of overhead
 [ ] make the rental unit id field in the rental unit contract unuique 
+[ ] fix the database connection in github

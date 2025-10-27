@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ManzelOS-data-access-layer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2ce2a493997a1649f1ff1f03c7411af014036fce")]
 [assembly: System.Reflection.AssemblyProductAttribute("ManzelOS-data-access-layer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ManzelOS-data-access-layer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

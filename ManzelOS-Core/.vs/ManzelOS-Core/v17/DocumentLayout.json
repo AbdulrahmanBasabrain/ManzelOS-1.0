@@ -3,6 +3,9 @@
   "WorkspaceRootPath": "C:\\Users\\dahmDev\\Documents\\My Docs\\coding\\projects\\ManzelOS-Core\\ManzelOS-Core\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{8BE4E7CE-7BCE-4F91-AD6D-1157FA262B88}|..\\ManzelOS-data-access-layer\\ManzelOS-data-access-layer.csproj|c:\\users\\dahmdev\\documents\\my docs\\coding\\projects\\manzelos-core\\manzelos-data-access-layer\\clsdataaccesssettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8BE4E7CE-7BCE-4F91-AD6D-1157FA262B88}|..\\ManzelOS-data-access-layer\\ManzelOS-data-access-layer.csproj|c:\\users\\dahmdev\\documents\\my docs\\coding\\projects\\manzelos-core\\manzelos-data-access-layer\\tenantsdata\\clstenantdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -83,19 +86,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "clsDataAccessSettings.cs",
+              "DocumentMoniker": "C:\\Users\\dahmDev\\Documents\\My Docs\\coding\\projects\\ManzelOS-Core\\ManzelOS-data-access-layer\\clsDataAccessSettings.cs",
+              "RelativeDocumentMoniker": "..\\ManzelOS-data-access-layer\\clsDataAccessSettings.cs",
+              "ToolTip": "C:\\Users\\dahmDev\\Documents\\My Docs\\coding\\projects\\ManzelOS-Core\\ManzelOS-data-access-layer\\clsDataAccessSettings.cs",
+              "RelativeToolTip": "..\\ManzelOS-data-access-layer\\clsDataAccessSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T14:42:47.711Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "clsTenantDataAccess.cs",
               "DocumentMoniker": "C:\\Users\\dahmDev\\Documents\\My Docs\\coding\\projects\\ManzelOS-Core\\ManzelOS-data-access-layer\\TenantsData\\clsTenantDataAccess.cs",
               "RelativeDocumentMoniker": "..\\ManzelOS-data-access-layer\\TenantsData\\clsTenantDataAccess.cs",
               "ToolTip": "C:\\Users\\dahmDev\\Documents\\My Docs\\coding\\projects\\ManzelOS-Core\\ManzelOS-data-access-layer\\TenantsData\\clsTenantDataAccess.cs",
               "RelativeToolTip": "..\\ManzelOS-data-access-layer\\TenantsData\\clsTenantDataAccess.cs",
-              "ViewState": "AgIAAEkAAAAAAAAAAAAQwFcAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFcAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-26T06:53:59.801Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "clsRentalUnitTypeDataAccess.cs",
               "DocumentMoniker": "C:\\Users\\dahmDev\\Documents\\My Docs\\coding\\projects\\ManzelOS-Core\\ManzelOS-data-access-layer\\RentalUnitsData\\RentalUnitsData\\clsRentalUnitTypeDataAccess.cs",
               "RelativeDocumentMoniker": "..\\ManzelOS-data-access-layer\\RentalUnitsData\\RentalUnitsData\\clsRentalUnitTypeDataAccess.cs",
@@ -103,12 +119,11 @@
               "RelativeToolTip": "..\\ManzelOS-data-access-layer\\RentalUnitsData\\RentalUnitsData\\clsRentalUnitTypeDataAccess.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-26T06:53:55.484Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-26T06:53:55.484Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "clsRentalUnitDataAccess.cs",
               "DocumentMoniker": "C:\\Users\\dahmDev\\Documents\\My Docs\\coding\\projects\\ManzelOS-Core\\ManzelOS-data-access-layer\\RentalUnitsData\\RentalUnitsData\\clsRentalUnitDataAccess.cs",
               "RelativeDocumentMoniker": "..\\ManzelOS-data-access-layer\\RentalUnitsData\\RentalUnitsData\\clsRentalUnitDataAccess.cs",
@@ -116,12 +131,11 @@
               "RelativeToolTip": "..\\ManzelOS-data-access-layer\\RentalUnitsData\\RentalUnitsData\\clsRentalUnitDataAccess.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-26T06:53:54.144Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-26T06:53:54.144Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "clsRentalUnitAssignedToEmployeeDataAccess.cs",
               "DocumentMoniker": "C:\\Users\\dahmDev\\Documents\\My Docs\\coding\\projects\\ManzelOS-Core\\ManzelOS-data-access-layer\\RentalUnitsData\\RentalUnitsData\\clsRentalUnitAssignedToEmployeeDataAccess.cs",
               "RelativeDocumentMoniker": "..\\ManzelOS-data-access-layer\\RentalUnitsData\\RentalUnitsData\\clsRentalUnitAssignedToEmployeeDataAccess.cs",
@@ -129,12 +143,11 @@
               "RelativeToolTip": "..\\ManzelOS-data-access-layer\\RentalUnitsData\\RentalUnitsData\\clsRentalUnitAssignedToEmployeeDataAccess.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-26T06:53:52.881Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-26T06:53:52.881Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "clsRentalUnitContractDataAccess.cs",
               "DocumentMoniker": "C:\\Users\\dahmDev\\Documents\\My Docs\\coding\\projects\\ManzelOS-Core\\ManzelOS-data-access-layer\\RentalUnitsData\\RentalUnitsContractsData\\clsRentalUnitContractDataAccess.cs",
               "RelativeDocumentMoniker": "..\\ManzelOS-data-access-layer\\RentalUnitsData\\RentalUnitsContractsData\\clsRentalUnitContractDataAccess.cs",
@@ -142,12 +155,11 @@
               "RelativeToolTip": "..\\ManzelOS-data-access-layer\\RentalUnitsData\\RentalUnitsContractsData\\clsRentalUnitContractDataAccess.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-26T06:53:49.355Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-26T06:53:49.355Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "clsPeopleDataAccess.cs",
               "DocumentMoniker": "C:\\Users\\dahmDev\\Documents\\My Docs\\coding\\projects\\ManzelOS-Core\\ManzelOS-data-access-layer\\PeopleData\\clsPeopleDataAccess.cs",
               "RelativeDocumentMoniker": "..\\ManzelOS-data-access-layer\\PeopleData\\clsPeopleDataAccess.cs",
@@ -155,12 +167,11 @@
               "RelativeToolTip": "..\\ManzelOS-data-access-layer\\PeopleData\\clsPeopleDataAccess.cs",
               "ViewState": "AgIAAEEAAAAAAAAAAAA5wAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-26T06:53:43.839Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-26T06:53:43.839Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "clsMarriageStatusDataAccess.cs",
               "DocumentMoniker": "C:\\Users\\dahmDev\\Documents\\My Docs\\coding\\projects\\ManzelOS-Core\\ManzelOS-data-access-layer\\PeopleData\\clsMarriageStatusDataAccess.cs",
               "RelativeDocumentMoniker": "..\\ManzelOS-data-access-layer\\PeopleData\\clsMarriageStatusDataAccess.cs",
@@ -168,12 +179,11 @@
               "RelativeToolTip": "..\\ManzelOS-data-access-layer\\PeopleData\\clsMarriageStatusDataAccess.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-26T06:53:41.867Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-26T06:53:41.867Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "clsCountryDataAccess.cs",
               "DocumentMoniker": "C:\\Users\\dahmDev\\Documents\\My Docs\\coding\\projects\\ManzelOS-Core\\ManzelOS-data-access-layer\\PeopleData\\clsCountryDataAccess.cs",
               "RelativeDocumentMoniker": "..\\ManzelOS-data-access-layer\\PeopleData\\clsCountryDataAccess.cs",
@@ -181,12 +191,11 @@
               "RelativeToolTip": "..\\ManzelOS-data-access-layer\\PeopleData\\clsCountryDataAccess.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-26T06:53:40.455Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-26T06:53:40.455Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "clsContinentDataAccess.cs",
               "DocumentMoniker": "C:\\Users\\dahmDev\\Documents\\My Docs\\coding\\projects\\ManzelOS-Core\\ManzelOS-data-access-layer\\PeopleData\\clsContinentDataAccess.cs",
               "RelativeDocumentMoniker": "..\\ManzelOS-data-access-layer\\PeopleData\\clsContinentDataAccess.cs",
@@ -194,12 +203,11 @@
               "RelativeToolTip": "..\\ManzelOS-data-access-layer\\PeopleData\\clsContinentDataAccess.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-26T06:53:39.154Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-26T06:53:39.154Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "clsCityDataAccess.cs",
               "DocumentMoniker": "C:\\Users\\dahmDev\\Documents\\My Docs\\coding\\projects\\ManzelOS-Core\\ManzelOS-data-access-layer\\PeopleData\\clsCityDataAccess.cs",
               "RelativeDocumentMoniker": "..\\ManzelOS-data-access-layer\\PeopleData\\clsCityDataAccess.cs",
@@ -207,12 +215,11 @@
               "RelativeToolTip": "..\\ManzelOS-data-access-layer\\PeopleData\\clsCityDataAccess.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-26T06:53:37.743Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-26T06:53:37.743Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "clsPaymentStatusDataAccess.cs",
               "DocumentMoniker": "C:\\Users\\dahmDev\\Documents\\My Docs\\coding\\projects\\ManzelOS-Core\\ManzelOS-data-access-layer\\PaymentsData\\clsPaymentStatusDataAccess.cs",
               "RelativeDocumentMoniker": "..\\ManzelOS-data-access-layer\\PaymentsData\\clsPaymentStatusDataAccess.cs",
@@ -220,12 +227,11 @@
               "RelativeToolTip": "..\\ManzelOS-data-access-layer\\PaymentsData\\clsPaymentStatusDataAccess.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-26T06:53:32.148Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-26T06:53:32.148Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "clsPaymentMethodDataAccess.cs",
               "DocumentMoniker": "C:\\Users\\dahmDev\\Documents\\My Docs\\coding\\projects\\ManzelOS-Core\\ManzelOS-data-access-layer\\PaymentsData\\clsPaymentMethodDataAccess.cs",
               "RelativeDocumentMoniker": "..\\ManzelOS-data-access-layer\\PaymentsData\\clsPaymentMethodDataAccess.cs",
@@ -233,12 +239,11 @@
               "RelativeToolTip": "..\\ManzelOS-data-access-layer\\PaymentsData\\clsPaymentMethodDataAccess.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-26T06:53:30.735Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-26T06:53:30.735Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "clsPaymentDataAccess.cs",
               "DocumentMoniker": "C:\\Users\\dahmDev\\Documents\\My Docs\\coding\\projects\\ManzelOS-Core\\ManzelOS-data-access-layer\\PaymentsData\\clsPaymentDataAccess.cs",
               "RelativeDocumentMoniker": "..\\ManzelOS-data-access-layer\\PaymentsData\\clsPaymentDataAccess.cs",
@@ -246,12 +251,11 @@
               "RelativeToolTip": "..\\ManzelOS-data-access-layer\\PaymentsData\\clsPaymentDataAccess.cs",
               "ViewState": "AgIAAJ8AAAAAAAAAAAAwwLIAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-26T06:53:29.175Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-26T06:53:29.175Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "clsGeneratedBillDataAccess.cs",
               "DocumentMoniker": "C:\\Users\\dahmDev\\Documents\\My Docs\\coding\\projects\\ManzelOS-Core\\ManzelOS-data-access-layer\\PaymentsData\\clsGeneratedBillDataAccess.cs",
               "RelativeDocumentMoniker": "..\\ManzelOS-data-access-layer\\PaymentsData\\clsGeneratedBillDataAccess.cs",
@@ -259,12 +263,11 @@
               "RelativeToolTip": "..\\ManzelOS-data-access-layer\\PaymentsData\\clsGeneratedBillDataAccess.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-26T06:53:27.857Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-26T06:53:27.857Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "clsBillTypeDataAccess.cs",
               "DocumentMoniker": "C:\\Users\\dahmDev\\Documents\\My Docs\\coding\\projects\\ManzelOS-Core\\ManzelOS-data-access-layer\\PaymentsData\\clsBillTypeDataAccess.cs",
               "RelativeDocumentMoniker": "..\\ManzelOS-data-access-layer\\PaymentsData\\clsBillTypeDataAccess.cs",
@@ -272,12 +275,11 @@
               "RelativeToolTip": "..\\ManzelOS-data-access-layer\\PaymentsData\\clsBillTypeDataAccess.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-26T06:53:26.353Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-26T06:53:26.353Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "clsBillPaymentsStatusDataAccess.cs",
               "DocumentMoniker": "C:\\Users\\dahmDev\\Documents\\My Docs\\coding\\projects\\ManzelOS-Core\\ManzelOS-data-access-layer\\PaymentsData\\clsBillPaymentsStatusDataAccess.cs",
               "RelativeDocumentMoniker": "..\\ManzelOS-data-access-layer\\PaymentsData\\clsBillPaymentsStatusDataAccess.cs",
@@ -285,12 +287,11 @@
               "RelativeToolTip": "..\\ManzelOS-data-access-layer\\PaymentsData\\clsBillPaymentsStatusDataAccess.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-26T06:53:25.031Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-26T06:53:25.031Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "clsBillingPeriodTypeDataAccess.cs",
               "DocumentMoniker": "C:\\Users\\dahmDev\\Documents\\My Docs\\coding\\projects\\ManzelOS-Core\\ManzelOS-data-access-layer\\PaymentsData\\clsBillingPeriodTypeDataAccess.cs",
               "RelativeDocumentMoniker": "..\\ManzelOS-data-access-layer\\PaymentsData\\clsBillingPeriodTypeDataAccess.cs",
@@ -298,12 +299,11 @@
               "RelativeToolTip": "..\\ManzelOS-data-access-layer\\PaymentsData\\clsBillingPeriodTypeDataAccess.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-26T06:53:23.684Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-26T06:53:23.684Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "clsOwnerDataAccess.cs",
               "DocumentMoniker": "C:\\Users\\dahmDev\\Documents\\My Docs\\coding\\projects\\ManzelOS-Core\\ManzelOS-data-access-layer\\OwnersData\\clsOwnerDataAccess.cs",
               "RelativeDocumentMoniker": "..\\ManzelOS-data-access-layer\\OwnersData\\clsOwnerDataAccess.cs",
@@ -311,12 +311,11 @@
               "RelativeToolTip": "..\\ManzelOS-data-access-layer\\OwnersData\\clsOwnerDataAccess.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-26T06:53:19.084Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-26T06:53:19.084Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "clsPropertyManagerDataAccess.cs",
               "DocumentMoniker": "C:\\Users\\dahmDev\\Documents\\My Docs\\coding\\projects\\ManzelOS-Core\\ManzelOS-data-access-layer\\EmployeesData\\clsPropertyManagerDataAccess.cs",
               "RelativeDocumentMoniker": "..\\ManzelOS-data-access-layer\\EmployeesData\\clsPropertyManagerDataAccess.cs",
@@ -324,12 +323,11 @@
               "RelativeToolTip": "..\\ManzelOS-data-access-layer\\EmployeesData\\clsPropertyManagerDataAccess.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-26T06:53:15.171Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-26T06:53:15.171Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "clsEmployeeDataAccess.cs",
               "DocumentMoniker": "C:\\Users\\dahmDev\\Documents\\My Docs\\coding\\projects\\ManzelOS-Core\\ManzelOS-data-access-layer\\EmployeesData\\clsEmployeeDataAccess.cs",
               "RelativeDocumentMoniker": "..\\ManzelOS-data-access-layer\\EmployeesData\\clsEmployeeDataAccess.cs",
@@ -337,8 +335,7 @@
               "RelativeToolTip": "..\\ManzelOS-data-access-layer\\EmployeesData\\clsEmployeeDataAccess.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-26T06:53:13.654Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-26T06:53:13.654Z"
             }
           ]
         }
