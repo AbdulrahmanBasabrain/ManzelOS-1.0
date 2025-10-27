@@ -1,0 +1,6 @@
+@ManzelOS_Core_HostAddress = http://localhost:5188
+
+GET {{ManzelOS_Core_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

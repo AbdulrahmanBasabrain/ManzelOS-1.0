@@ -1,0 +1,2252 @@
+[
+  {
+    "ContainingType": "ManzelOS_Core.Controllers.PaymentAndBills.PaymentAndBillsLookUps.BillingPeriodTypeController",
+    "Method": "ListBillingPeriodType",
+    "RelativePath": "api/BillingPeriodTypeController/ListBillingPeriodType",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ManzelOS_data_access_layer.PaymentsData.BillingPeriodTypeDTO, ManzelOS-data-access-layer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      }
+    ],
+    "EndpointName": "ListBillingPeriodType"
+  },
+  {
+    "ContainingType": "ManzelOS_Core.Controllers.PaymentAndBills.PaymentAndBillsLookUps.BillTypeController",
+    "Method": "ListBillTypes",
+    "RelativePath": "api/BillTypeController/ListBillTypes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ManzelOS_data_access_layer.PaymentsData.BillTypeDTO, ManzelOS-data-access-layer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      }
+    ],
+    "EndpointName": "ListBillTypes"
+  },
+  {
+    "ContainingType": "ManzelOS_Core.Controllers.PeopleControllers.CityController",
+    "Method": "FindeCityById",
+    "RelativePath": "api/CityController/FindCityById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cityId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ManzelOS_data_access_layer.PeopleData.CityDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      }
+    ],
+    "EndpointName": "FindCityById"
+  },
+  {
+    "ContainingType": "ManzelOS_Core.Controllers.PeopleControllers.CityController",
+    "Method": "ListCities",
+    "RelativePath": "api/CityController/ListCities",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ManzelOS_data_access_layer.PeopleData.CityDTO, ManzelOS-data-access-layer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      }
+    ],
+    "EndpointName": "ListCities"
+  },
+  {
+    "ContainingType": "ManzelOS_Core.Controllers.PeopleControllers.ContinentController",
+    "Method": "FindeContinentId",
+    "RelativePath": "api/ContinentController/FindeContinentId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "continentId",
+        "Type": "System.Int16",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ManzelOS_data_access_layer.PeopleData.ContinentDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      }
+    ],
+    "EndpointName": "FindeContinentId"
+  },
+  {
+    "ContainingType": "ManzelOS_Core.Controllers.PeopleControllers.ContinentController",
+    "Method": "ListAllContinent",
+    "RelativePath": "api/ContinentController/ListContinent",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ManzelOS_data_access_layer.PeopleData.PeopleDTO, ManzelOS-data-access-layer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      }
+    ],
+    "EndpointName": "ListAllContinent"
+  },
+  {
+    "ContainingType": "ManzelOS_Core.Controllers.PeopleControllers.CountriesController",
+    "Method": "FindecountryById",
+    "RelativePath": "api/CountriesController/FindCountryById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "countryId",
+        "Type": "System.Int16",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ManzelOS_data_access_layer.PeopleData.CountryDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      }
+    ],
+    "EndpointName": "FindCountryById"
+  },
+  {
+    "ContainingType": "ManzelOS_Core.Controllers.PeopleControllers.CountriesController",
+    "Method": "ListCountries",
+    "RelativePath": "api/CountriesController/ListCountries",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ManzelOS_data_access_layer.PeopleData.CountryDTO, ManzelOS-data-access-layer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      }
+    ],
+    "EndpointName": "ListCountries"
+  },
+  {
+    "ContainingType": "ManzelOS_Core.Controllers.Employees.EmployeeAssignedToPropertyController",
+    "Method": "FindEmployeePropertyAssignmentById",
+    "RelativePath": "api/EmployeeAssignedToPropertyController/AssignmentId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "assignmentId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ManzelOS_data_access_layer.RentalUnitsData.RentalUnitsData.AssignEmployeeToPropertyDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      }
+    ],
+    "EndpointName": "FindEmployeePropertyAssignmentById"
+  },
+  {
+    "ContainingType": "ManzelOS_Core.Controllers.Employees.EmployeeAssignedToPropertyController",
+    "Method": "AssignPropertyToEmployee",
+    "RelativePath": "api/EmployeeAssignedToPropertyController/AssignPropertyToEmployee",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "assignEmployeeToPropertyDTO",
+        "Type": "ManzelOS_data_access_layer.RentalUnitsData.RentalUnitsData.AssignEmployeeToPropertyDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ManzelOS_data_access_layer.RentalUnitsData.RentalUnitsData.AssignEmployeeToPropertyDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 201
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      }
+    ],
+    "EndpointName": "AssignPropertyToEmployee"
+  },
+  {
+    "ContainingType": "ManzelOS_Core.Controllers.Employees.EmployeeAssignedToPropertyController",
+    "Method": "ChangePropertyToEmployeeAssignemnt",
+    "RelativePath": "api/EmployeeAssignedToPropertyController/ChangePropertyToEmployeeAssignemnt",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "assignmentId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "assignEmployeeToPropertyDTO",
+        "Type": "ManzelOS_data_access_layer.RentalUnitsData.RentalUnitsData.AssignEmployeeToPropertyDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ManzelOS_data_access_layer.RentalUnitsData.RentalUnitsData.AssignEmployeeToPropertyDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      }
+    ],
+    "EndpointName": "ChangePropertyToEmployeeAssignemnt"
+  },
+  {
+    "ContainingType": "ManzelOS_Core.Controllers.Employees.EmployeeAssignedToPropertyController",
+    "Method": "DeletePropertyToEmployeeAssignemnt",
+    "RelativePath": "api/EmployeeAssignedToPropertyController/DeletePropertyToEmployeeAssignemnt",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "assignmentId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      }
+    ],
+    "EndpointName": "DeletePropertyToEmployeeAssignemnt"
+  },
+  {
+    "ContainingType": "ManzelOS_Core.Controllers.Employees.EmployeeAssignedToPropertyController",
+    "Method": "ListEmployeePropertyAssignments",
+    "RelativePath": "api/EmployeeAssignedToPropertyController/ListEmployeePropertyAssignments",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ManzelOS_data_access_layer.RentalUnitsData.RentalUnitsData.AssignEmployeeToPropertyDTO, ManzelOS-data-access-layer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      }
+    ],
+    "EndpointName": "ListEmployeePropertyAssignments"
+  },
+  {
+    "ContainingType": "ManzelOS_Core.Controllers.Employees.EmployeeController",
+    "Method": "DeleteEmployee",
+    "RelativePath": "api/EmployeeController/{employeeId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "employeeId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      }
+    ],
+    "EndpointName": "DeleteEmployee"
+  },
+  {
+    "ContainingType": "ManzelOS_Core.Controllers.Employees.EmployeeController",
+    "Method": "AddEmployee",
+    "RelativePath": "api/EmployeeController/AddNewEmployee",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "employeeDTO",
+        "Type": "ManzelOS_data_access_layer.EmployeesData.EmployeeDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ManzelOS_data_access_layer.EmployeesData.EmployeeDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 201
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      }
+    ],
+    "EndpointName": "AddNewEmployee"
+  },
+  {
+    "ContainingType": "ManzelOS_Core.Controllers.Employees.EmployeeController",
+    "Method": "FindEmployeeById",
+    "RelativePath": "api/EmployeeController/employeeId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "employeeId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ManzelOS_data_access_layer.EmployeesData.EmployeeDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      }
+    ],
+    "EndpointName": "FindEmployeeById"
+  },
+  {
+    "ContainingType": "ManzelOS_Core.Controllers.Employees.EmployeeController",
+    "Method": "ListEmployees",
+    "RelativePath": "api/EmployeeController/ListEmployees",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ManzelOS_data_access_layer.EmployeesData.EmployeeDTO, ManzelOS-data-access-layer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      }
+    ],
+    "EndpointName": "ListEmployees"
+  },
+  {
+    "ContainingType": "ManzelOS_Core.Controllers.Employees.EmployeeController",
+    "Method": "UpdateEmployee",
+    "RelativePath": "api/EmployeeController/UpdateEmployee",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "employeeId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "employeeDTO",
+        "Type": "ManzelOS_data_access_layer.EmployeesData.EmployeeDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ManzelOS_data_access_layer.EmployeesData.EmployeeDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      }
+    ],
+    "EndpointName": "UpdateEmployee"
+  },
+  {
+    "ContainingType": "ManzelOS_Core.Controllers.PaymentAndBills.PaymentAndBills.GeneratedBillController",
+    "Method": "AddNewGeneratedBill",
+    "RelativePath": "api/GeneratedBillController/AddNewGeneratedBill",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "generatedBillDTO",
+        "Type": "ManzelOS_data_access_layer.PaymentsData.GeneratedBillDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ManzelOS_data_access_layer.PaymentsData.GeneratedBillDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 201
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      }
+    ],
+    "EndpointName": "AddNewGeneratedBill"
+  },
+  {
+    "ContainingType": "ManzelOS_Core.Controllers.PaymentAndBills.PaymentAndBills.GeneratedBillController",
+    "Method": "DeleteGeneratedBill",
+    "RelativePath": "api/GeneratedBillController/DeleteGeneratedBill",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "generatedBillId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      }
+    ],
+    "EndpointName": "DeleteGeneratedBill"
+  },
+  {
+    "ContainingType": "ManzelOS_Core.Controllers.PaymentAndBills.PaymentAndBills.GeneratedBillController",
+    "Method": "FindGeneratedBillById",
+    "RelativePath": "api/GeneratedBillController/FindGeneratedBillById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "generatedBillId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ManzelOS_data_access_layer.PaymentsData.GeneratedBillDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      }
+    ],
+    "EndpointName": "FindGeneratedBillById"
+  },
+  {
+    "ContainingType": "ManzelOS_Core.Controllers.PaymentAndBills.PaymentAndBills.GeneratedBillController",
+    "Method": "ListGeneratedBills",
+    "RelativePath": "api/GeneratedBillController/ListGeneratedBills",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ManzelOS_data_access_layer.PaymentsData.GeneratedBillDTO, ManzelOS-data-access-layer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      }
+    ],
+    "EndpointName": "ListGeneratedBills"
+  },
+  {
+    "ContainingType": "ManzelOS_Core.Controllers.PaymentAndBills.PaymentAndBills.GeneratedBillController",
+    "Method": "UpdateGeneratedBill",
+    "RelativePath": "api/GeneratedBillController/UpdateGeneratedBill",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "generatedBillId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "generatedBillDTO",
+        "Type": "ManzelOS_data_access_layer.PaymentsData.GeneratedBillDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ManzelOS_data_access_layer.PaymentsData.GeneratedBillDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      }
+    ],
+    "EndpointName": "UpdateGeneratedBill"
+  },
+  {
+    "ContainingType": "ManzelOS_Core.Controllers.PaymentAndBills.PaymentAndBillsLookUps.BillPaymentStatus",
+    "Method": "ListBillPaymentStatus",
+    "RelativePath": "api/ListBillPaymentStatus/ListBillPaymentStatus",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ManzelOS_data_access_layer.PaymentsData.BillPaymentStatusDTO, ManzelOS-data-access-layer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      }
+    ],
+    "EndpointName": "ListBillPaymentStatus"
+  },
+  {
+    "ContainingType": "ManzelOS_Core.Controllers.PeopleControllers.MarriageStatusController",
+    "Method": "ListMarriatialStatus",
+    "RelativePath": "api/MarriageStatus/ListMarritialStatuses",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ManzelOS_data_access_layer.PeopleData.MarriageStatusDTO, ManzelOS-data-access-layer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "ListMarriatialStatus"
+  },
+  {
+    "ContainingType": "ManzelOS_Core.Controllers.Owners.OwnerController",
+    "Method": "DeleteOwner",
+    "RelativePath": "api/OwnerController/{ownerId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ownerId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      }
+    ],
+    "EndpointName": "DeleteOwner"
+  },
+  {
+    "ContainingType": "ManzelOS_Core.Controllers.Owners.OwnerController",
+    "Method": "AddOwner",
+    "RelativePath": "api/OwnerController/AddNewOwner",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ownerDTO",
+        "Type": "ManzelOS_data_access_layer.OwnersData.OwnerDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ManzelOS_data_access_layer.OwnersData.OwnerDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 201
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      }
+    ],
+    "EndpointName": "AddNewOwner"
+  },
+  {
+    "ContainingType": "ManzelOS_Core.Controllers.Owners.OwnerController",
+    "Method": "FindOwnerById",
+    "RelativePath": "api/OwnerController/FindOwnerById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ownerId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ManzelOS_data_access_layer.OwnersData.OwnerDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      }
+    ],
+    "EndpointName": "FindOwnerById"
+  },
+  {
+    "ContainingType": "ManzelOS_Core.Controllers.Owners.OwnerController",
+    "Method": "ListOwners",
+    "RelativePath": "api/OwnerController/ListOwners",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ManzelOS_data_access_layer.OwnersData.OwnerDTO, ManzelOS-data-access-layer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      }
+    ],
+    "EndpointName": "ListOwners"
+  },
+  {
+    "ContainingType": "ManzelOS_Core.Controllers.PaymentAndBills.PaymentAndBills.PaymentController",
+    "Method": "AddNewPayment",
+    "RelativePath": "api/PaymentController/AddNewPayment",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "paymentDTO",
+        "Type": "ManzelOS_data_access_layer.PaymentsData.PaymentDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ManzelOS_data_access_layer.PaymentsData.PaymentDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 201
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      }
+    ],
+    "EndpointName": "AddNewPayment"
+  },
+  {
+    "ContainingType": "ManzelOS_Core.Controllers.PaymentAndBills.PaymentAndBills.PaymentController",
+    "Method": "FindPaymentById",
+    "RelativePath": "api/PaymentController/FindPaymentById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "paymentId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ManzelOS_data_access_layer.PaymentsData.PaymentDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      }
+    ],
+    "EndpointName": "FindPaymentById"
+  },
+  {
+    "ContainingType": "ManzelOS_Core.Controllers.PaymentAndBills.PaymentAndBills.PaymentController",
+    "Method": "ListPayments",
+    "RelativePath": "api/PaymentController/ListPayments",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ManzelOS_data_access_layer.PaymentsData.PaymentDTO, ManzelOS-data-access-layer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      }
+    ],
+    "EndpointName": "ListPayments"
+  },
+  {
+    "ContainingType": "ManzelOS_Core.Controllers.PaymentAndBills.PaymentAndBillsLookUps.PaymentMethodController",
+    "Method": "ListPaymentMethods",
+    "RelativePath": "api/PaymentMethodController/ListPaymentMethods",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ManzelOS_data_access_layer.PaymentsData.PaymentMethodDTO, ManzelOS-data-access-layer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      }
+    ],
+    "EndpointName": "ListPaymentMethods"
+  },
+  {
+    "ContainingType": "ManzelOS_Core.Controllers.PaymentAndBills.PaymentAndBillsLookUps.PaymentStatusController",
+    "Method": "ListPaymentStatuses",
+    "RelativePath": "api/PaymentStatusController/ListPaymentStatuses",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ManzelOS_data_access_layer.PaymentsData.PaymentStatusDTO, ManzelOS-data-access-layer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      }
+    ],
+    "EndpointName": "ListPaymentStatuses"
+  },
+  {
+    "ContainingType": "ManzelOS_Core.Controllers.PeopleControllers.PeopleController",
+    "Method": "FindePersonById",
+    "RelativePath": "api/PeopleController/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "personId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "id",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ManzelOS_data_access_layer.PeopleData.PeopleDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      }
+    ],
+    "EndpointName": "FindePersonById"
+  },
+  {
+    "ContainingType": "ManzelOS_Core.Controllers.PeopleControllers.PeopleController",
+    "Method": "DeletePerson",
+    "RelativePath": "api/PeopleController/{personId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "personId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      }
+    ],
+    "EndpointName": "DeletePerson"
+  },
+  {
+    "ContainingType": "ManzelOS_Core.Controllers.PeopleControllers.PeopleController",
+    "Method": "AddNewPerson",
+    "RelativePath": "api/PeopleController/AddNewPerson",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newPerson",
+        "Type": "ManzelOS_data_access_layer.PeopleData.PeopleDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ManzelOS_data_access_layer.PeopleData.PeopleDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 201
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      }
+    ],
+    "EndpointName": "AddNewPerson"
+  },
+  {
+    "ContainingType": "ManzelOS_Core.Controllers.PeopleControllers.PeopleController",
+    "Method": "ListAllPeople",
+    "RelativePath": "api/PeopleController/ListPeople",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ManzelOS_data_access_layer.PeopleData.PeopleDTO, ManzelOS-data-access-layer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      }
+    ],
+    "EndpointName": "ListPeople"
+  },
+  {
+    "ContainingType": "ManzelOS_Core.Controllers.PeopleControllers.PeopleController",
+    "Method": "UpdatePerson",
+    "RelativePath": "api/PeopleController/UpdatePerson",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "personId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "updatedPerson",
+        "Type": "ManzelOS_data_access_layer.PeopleData.PeopleDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ManzelOS_data_access_layer.PeopleData.PeopleDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 201
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      }
+    ],
+    "EndpointName": "UpdateNewPerson"
+  },
+  {
+    "ContainingType": "ManzelOS_Core.Controllers.Employees.PropertyManagerController",
+    "Method": "DeletePropertyManager",
+    "RelativePath": "api/PropertyManagerController/{propertyManagerId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "propertyManagerId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      }
+    ],
+    "EndpointName": "DeletePropertyManager"
+  },
+  {
+    "ContainingType": "ManzelOS_Core.Controllers.Employees.PropertyManagerController",
+    "Method": "AddNewPropertyManager",
+    "RelativePath": "api/PropertyManagerController/AddPropertyManager",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "propertyManagerDTO",
+        "Type": "ManzelOS_data_access_layer.EmployeesData.PropertyManagerDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ManzelOS_data_access_layer.EmployeesData.PropertyManagerDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 201
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      }
+    ],
+    "EndpointName": "AddPropertyManager"
+  },
+  {
+    "ContainingType": "ManzelOS_Core.Controllers.Employees.PropertyManagerController",
+    "Method": "FindPropertyManager",
+    "RelativePath": "api/PropertyManagerController/FindPropertyManager",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "propertyManagerId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ManzelOS_data_access_layer.EmployeesData.PropertyManagerDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      }
+    ],
+    "EndpointName": "FindPropertyManager"
+  },
+  {
+    "ContainingType": "ManzelOS_Core.Controllers.Employees.PropertyManagerController",
+    "Method": "ListPropertyManager",
+    "RelativePath": "api/PropertyManagerController/ListAllPropertyManagers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ManzelOS_data_access_layer.EmployeesData.PropertyManagerDTO, ManzelOS-data-access-layer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      }
+    ],
+    "EndpointName": "ListAllPropertyManagers"
+  },
+  {
+    "ContainingType": "ManzelOS_Core.Controllers.Employees.PropertyManagerController",
+    "Method": "UpdatePropertyManager",
+    "RelativePath": "api/PropertyManagerController/UpdatePropertyManager",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "propertyManagerId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "propertyManagerDTO",
+        "Type": "ManzelOS_data_access_layer.EmployeesData.PropertyManagerDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ManzelOS_data_access_layer.EmployeesData.PropertyManagerDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      }
+    ],
+    "EndpointName": "UpdatePropertyManager"
+  },
+  {
+    "ContainingType": "ManzelOS_Core.Controllers.RentalUnits.RentalUnits.RentalUnitContractController",
+    "Method": "AddNewRentalContract",
+    "RelativePath": "api/RentalUnitContractController/AddRentacUnitContract",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "rentalUnitContractDTO",
+        "Type": "ManzelOS_data_access_layer.RentalUnitsData.RentalUnitsContractsData.RentalUnitContractDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ManzelOS_data_access_layer.RentalUnitsData.RentalUnitsContractsData.RentalUnitContractDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 201
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      }
+    ],
+    "EndpointName": "AddRentacUnitContract"
+  },
+  {
+    "ContainingType": "ManzelOS_Core.Controllers.RentalUnits.RentalUnits.RentalUnitContractController",
+    "Method": "DeleteRentalUnitContract",
+    "RelativePath": "api/RentalUnitContractController/DeleteRentalContract",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "rentalUnitContractId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      }
+    ],
+    "EndpointName": "DeleteRentalContract"
+  },
+  {
+    "ContainingType": "ManzelOS_Core.Controllers.RentalUnits.RentalUnits.RentalUnitContractController",
+    "Method": "FindRentalUnitContractById",
+    "RelativePath": "api/RentalUnitContractController/FindRentalUnitContractById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "rentalContractId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ManzelOS_data_access_layer.RentalUnitsData.RentalUnitsContractsData.RentalUnitContractDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      }
+    ],
+    "EndpointName": "FindRentalUnitContractById"
+  },
+  {
+    "ContainingType": "ManzelOS_Core.Controllers.RentalUnits.RentalUnits.RentalUnitContractController",
+    "Method": "ListRentalUnitContract",
+    "RelativePath": "api/RentalUnitContractController/ListRentalUnitContract",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "ManzelOS_data_access_layer.RentalUnitsData.RentalUnitsContractsData.RentalUnitContractDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      }
+    ],
+    "EndpointName": "ListRentalUnitContract"
+  },
+  {
+    "ContainingType": "ManzelOS_Core.Controllers.RentalUnits.RentalUnits.RentalUnitContractController",
+    "Method": "UpdateRentalContract",
+    "RelativePath": "api/RentalUnitContractController/UpdateRentalContract",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "rentalUnitContractId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "rentalUnitContractDTO",
+        "Type": "ManzelOS_data_access_layer.RentalUnitsData.RentalUnitsContractsData.RentalUnitContractDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ManzelOS_data_access_layer.RentalUnitsData.RentalUnitsContractsData.RentalUnitContractDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      }
+    ],
+    "EndpointName": "UpdateRentalContract"
+  },
+  {
+    "ContainingType": "ManzelOS_Core.Controllers.RentalUnits.RentalUnits.RentalUnitController",
+    "Method": "AddRentalUnit",
+    "RelativePath": "api/RentalUnitController/AddNewRentalUnit",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "rentalUnitDTO",
+        "Type": "ManzelOS_data_access_layer.RentalUnitsData.RentalUnitsData.RentalUnitDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ManzelOS_data_access_layer.RentalUnitsData.RentalUnitsData.RentalUnitDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 201
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      }
+    ],
+    "EndpointName": "AddNewRentalUnit"
+  },
+  {
+    "ContainingType": "ManzelOS_Core.Controllers.RentalUnits.RentalUnits.RentalUnitController",
+    "Method": "DeleteRentalUnit",
+    "RelativePath": "api/RentalUnitController/DeleteRentalUnit",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "rentalUnitId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      }
+    ],
+    "EndpointName": "DeleteRentalUnit"
+  },
+  {
+    "ContainingType": "ManzelOS_Core.Controllers.RentalUnits.RentalUnits.RentalUnitController",
+    "Method": "FindRentalUnitById",
+    "RelativePath": "api/RentalUnitController/FindRentalUnitById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "rentalUnitId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ManzelOS_data_access_layer.RentalUnitsData.RentalUnitsData.RentalUnitDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      }
+    ],
+    "EndpointName": "FindRentalUnitById"
+  },
+  {
+    "ContainingType": "ManzelOS_Core.Controllers.RentalUnits.RentalUnits.RentalUnitController",
+    "Method": "ListRentalUnits",
+    "RelativePath": "api/RentalUnitController/ListRentalUnits",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ManzelOS_data_access_layer.RentalUnitsData.RentalUnitsData.RentalUnitDTO, ManzelOS-data-access-layer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      }
+    ],
+    "EndpointName": "ListRentalUnits"
+  },
+  {
+    "ContainingType": "ManzelOS_Core.Controllers.RentalUnits.RentalUnits.RentalUnitController",
+    "Method": "UpdateRentalUnit",
+    "RelativePath": "api/RentalUnitController/UpdateRentalUnit",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "rentalUnitId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "rentalUnitDTO",
+        "Type": "ManzelOS_data_access_layer.RentalUnitsData.RentalUnitsData.RentalUnitDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ManzelOS_data_access_layer.RentalUnitsData.RentalUnitsData.RentalUnitDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      }
+    ],
+    "EndpointName": "UpdateRentalUnit"
+  },
+  {
+    "ContainingType": "ManzelOS_Core.Controllers.RentalUnits.RentalUnitsLookups.RentalUnitTypeController",
+    "Method": "ListRentalUnitTypes",
+    "RelativePath": "api/RentalUnitTypeController/ListRentalUnitTypes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ManzelOS_data_access_layer.RentalUnitsData.RentalUnitsData.RentalUnitTypeDTO, ManzelOS-data-access-layer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      }
+    ],
+    "EndpointName": "ListRentalUnitTypes"
+  },
+  {
+    "ContainingType": "ManzelOS_Core.Controllers.Tenants.TenantController",
+    "Method": "FindTenantById",
+    "RelativePath": "api/TenantController/{tenantId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tenantId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      }
+    ],
+    "EndpointName": "FindTenantById"
+  },
+  {
+    "ContainingType": "ManzelOS_Core.Controllers.Tenants.TenantController",
+    "Method": "DeleteTenant",
+    "RelativePath": "api/TenantController/{tenantId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tenantId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      }
+    ],
+    "EndpointName": "DeleteTenant"
+  },
+  {
+    "ContainingType": "ManzelOS_Core.Controllers.Tenants.TenantController",
+    "Method": "AddNewTenant",
+    "RelativePath": "api/TenantController/AddNewTenant",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tenantDTO",
+        "Type": "ManzelOS_data_access_layer.TenantsData.TenantDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ManzelOS_data_access_layer.TenantsData.TenantDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      }
+    ],
+    "EndpointName": "AddNewTenant"
+  },
+  {
+    "ContainingType": "ManzelOS_Core.Controllers.Tenants.TenantController",
+    "Method": "ListAllTenants",
+    "RelativePath": "api/TenantController/List Tenants",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ManzelOS_data_access_layer.TenantsData.TenantDTO, ManzelOS-data-access-layer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      }
+    ]
+  },
+  {
+    "ContainingType": "ManzelOS_Core.Controllers.Tenants.TenantController",
+    "Method": "UpdateTenant",
+    "RelativePath": "api/TenantController/UpdateTenant",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tenantId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "tenantDTO",
+        "Type": "ManzelOS_data_access_layer.TenantsData.TenantDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ManzelOS_data_access_layer.TenantsData.TenantDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      }
+    ]
+  }
+]
