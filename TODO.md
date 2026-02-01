@@ -36,3 +36,5 @@ and apply this concept in the employee save method and property manager method
 [ ] delete the owner number of assets field because you don't need it and it add a ton of overhead
 [ ] make the rental unit id field in the rental unit contract unuique 
 [ ] fix the database connection in github
+[ ] make a background to notyfiy the property manager that the contract has been ended
+[ ] make a hirearchy for employees

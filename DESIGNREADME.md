@@ -1,15 +1,25 @@
 
 # UI
-## colors: 
-### brand -> #FCC425",
-### success -> #00FF00
-### warning -> #B45309
-### danger -> #E53935
-### info -> #8E24AA
-### neutral -> #1B263B
 
+## colors
 
-# typography
-## Arabic -> Noto Sans Arabic
-## English -> Noto Sans
-    
+### light mode
+
+--text: #17080f;
+--background: #fdf7fb;
+--primary: #fcc327;
+--secondary: #1b273b;
+--accent: #f97706;
+
+### dark mode
+
+--text: #f7e8ef;
+--background: #080206;
+--primary: #d89f03;
+--secondary: #c4cfe4;
+--accent: #f97706;
+
+## typography
+
+- Arabic -> Noto Sans Arabic
+- English -> Noto Sans

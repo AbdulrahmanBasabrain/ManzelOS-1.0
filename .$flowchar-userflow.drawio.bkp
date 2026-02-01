@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/27.0.5 Chrome/134.0.6998.205 Electron/35.3.0 Safari/537.36" version="27.0.5">
   <diagram name="Page-1" id="e41Gj5ofClWA3P7WL0H4">
-    <mxGraphModel dx="2675" dy="1663" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3766" dy="2301" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,17 +8,12 @@
           <mxGeometry x="360" y="80" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="kxfzSDqthDVRP78F0JDr-2" value="Property Manger" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
-          <mxGeometry x="425" y="-420" width="30" height="70" as="geometry" />
+          <mxGeometry x="425" y="-160" width="30" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="kxfzSDqthDVRP78F0JDr-3" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" target="kxfzSDqthDVRP78F0JDr-1" edge="1" source="7hrpR3-7HUD9sIYn1xuw-1">
+        <mxCell id="kxfzSDqthDVRP78F0JDr-3" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="kxfzSDqthDVRP78F0JDr-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="440" y="-50" as="sourcePoint" />
             <mxPoint x="390" y="-40" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="7hrpR3-7HUD9sIYn1xuw-3" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kxfzSDqthDVRP78F0JDr-3">
-          <mxGeometry x="-0.0681" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="kxfzSDqthDVRP78F0JDr-6" value="Login" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -491,7 +486,7 @@
         <mxCell id="kxfzSDqthDVRP78F0JDr-110" value="create tenant component" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="-215" y="2610" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="NfNoUFv50Xu5JX0ueXbd-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="kxfzSDqthDVRP78F0JDr-113" target="NfNoUFv50Xu5JX0ueXbd-1" edge="1">
+        <mxCell id="NfNoUFv50Xu5JX0ueXbd-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kxfzSDqthDVRP78F0JDr-113" target="NfNoUFv50Xu5JX0ueXbd-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="kxfzSDqthDVRP78F0JDr-113" value="no contract menu" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -617,36 +612,8 @@
         <mxCell id="kxfzSDqthDVRP78F0JDr-158" value="CRUD property manager components" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="760" y="1080" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NfNoUFv50Xu5JX0ueXbd-1" value="Property Settings" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="NfNoUFv50Xu5JX0ueXbd-1" value="Property Settings" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-570" y="2750" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="7hrpR3-7HUD9sIYn1xuw-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="7hrpR3-7HUD9sIYn1xuw-1" target="kxfzSDqthDVRP78F0JDr-20">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="-140" y="-180" />
-              <mxPoint x="-140" y="590" />
-              <mxPoint x="380" y="590" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="7hrpR3-7HUD9sIYn1xuw-6" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7hrpR3-7HUD9sIYn1xuw-4">
-          <mxGeometry x="-0.8195" y="2" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="7hrpR3-7HUD9sIYn1xuw-1" value="is he new or&amp;nbsp;&lt;div&gt;he saved his&lt;/div&gt;&lt;div&gt;&amp;nbsp;account info&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="360" y="-240" width="160" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="7hrpR3-7HUD9sIYn1xuw-7" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kxfzSDqthDVRP78F0JDr-2">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="439.76" y="-310" as="sourcePoint" />
-            <mxPoint x="439.76" y="-240" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="7hrpR3-7HUD9sIYn1xuw-8" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7hrpR3-7HUD9sIYn1xuw-7">
-          <mxGeometry x="-0.0681" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>

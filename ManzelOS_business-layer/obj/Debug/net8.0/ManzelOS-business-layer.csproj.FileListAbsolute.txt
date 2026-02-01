@@ -1,0 +1,62 @@
+C:\Users\dahmDev\Documents\coding\projects\ManzelOS-Core\ManzelOS-business-layer\obj\Debug\net8.0\ManzelOS-business-layer.csproj.AssemblyReference.cache
+C:\Users\dahmDev\Documents\coding\projects\ManzelOS-Core\ManzelOS-business-layer\obj\Debug\net8.0\ManzelOS-business-layer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dahmDev\Documents\coding\projects\ManzelOS-Core\ManzelOS-business-layer\obj\Debug\net8.0\ManzelOS-business-layer.AssemblyInfoInputs.cache
+C:\Users\dahmDev\Documents\coding\projects\ManzelOS-Core\ManzelOS-business-layer\obj\Debug\net8.0\ManzelOS-business-layer.AssemblyInfo.cs
+C:\Users\dahmDev\Documents\coding\projects\ManzelOS-Core\ManzelOS-business-layer\obj\Debug\net8.0\ManzelOS-business-layer.csproj.CoreCompileInputs.cache
+C:\Users\dahmDev\Documents\coding\projects\ManzelOS-Core\ManzelOS-business-layer\bin\Debug\net8.0\ManzelOS-business-layer.deps.json
+C:\Users\dahmDev\Documents\coding\projects\ManzelOS-Core\ManzelOS-business-layer\bin\Debug\net8.0\ManzelOS-business-layer.dll
+C:\Users\dahmDev\Documents\coding\projects\ManzelOS-Core\ManzelOS-business-layer\bin\Debug\net8.0\ManzelOS-business-layer.pdb
+C:\Users\dahmDev\Documents\coding\projects\ManzelOS-Core\ManzelOS-business-layer\bin\Debug\net8.0\ManzelOS-data-access-layer.dll
+C:\Users\dahmDev\Documents\coding\projects\ManzelOS-Core\ManzelOS-business-layer\bin\Debug\net8.0\ManzelOS-data-access-layer.pdb
+C:\Users\dahmDev\Documents\coding\projects\ManzelOS-Core\ManzelOS-business-layer\obj\Debug\net8.0\ManzelOS.ED64C39E.Up2Date
+C:\Users\dahmDev\Documents\coding\projects\ManzelOS-Core\ManzelOS-business-layer\obj\Debug\net8.0\ManzelOS-business-layer.dll
+C:\Users\dahmDev\Documents\coding\projects\ManzelOS-Core\ManzelOS-business-layer\obj\Debug\net8.0\refint\ManzelOS-business-layer.dll
+C:\Users\dahmDev\Documents\coding\projects\ManzelOS-Core\ManzelOS-business-layer\obj\Debug\net8.0\ManzelOS-business-layer.pdb
+C:\Users\dahmDev\Documents\coding\projects\ManzelOS-Core\ManzelOS-business-layer\obj\Debug\net8.0\ref\ManzelOS-business-layer.dll
+C:\Users\dahmDev\Documents\My Docs\coding\projects\ManzelOS-Core\ManzelOS-business-layer\bin\Debug\net8.0\ManzelOS-business-layer.deps.json
+C:\Users\dahmDev\Documents\My Docs\coding\projects\ManzelOS-Core\ManzelOS-business-layer\bin\Debug\net8.0\ManzelOS-business-layer.dll
+C:\Users\dahmDev\Documents\My Docs\coding\projects\ManzelOS-Core\ManzelOS-business-layer\bin\Debug\net8.0\ManzelOS-business-layer.pdb
+C:\Users\dahmDev\Documents\My Docs\coding\projects\ManzelOS-Core\ManzelOS-business-layer\bin\Debug\net8.0\ManzelOS-data-access-layer.dll
+C:\Users\dahmDev\Documents\My Docs\coding\projects\ManzelOS-Core\ManzelOS-business-layer\bin\Debug\net8.0\ManzelOS-data-access-layer.pdb
+C:\Users\dahmDev\Documents\My Docs\coding\projects\ManzelOS-Core\ManzelOS-business-layer\obj\Debug\net8.0\ManzelOS-business-layer.csproj.AssemblyReference.cache
+C:\Users\dahmDev\Documents\My Docs\coding\projects\ManzelOS-Core\ManzelOS-business-layer\obj\Debug\net8.0\ManzelOS-business-layer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dahmDev\Documents\My Docs\coding\projects\ManzelOS-Core\ManzelOS-business-layer\obj\Debug\net8.0\ManzelOS-business-layer.AssemblyInfoInputs.cache
+C:\Users\dahmDev\Documents\My Docs\coding\projects\ManzelOS-Core\ManzelOS-business-layer\obj\Debug\net8.0\ManzelOS-business-layer.AssemblyInfo.cs
+C:\Users\dahmDev\Documents\My Docs\coding\projects\ManzelOS-Core\ManzelOS-business-layer\obj\Debug\net8.0\ManzelOS-business-layer.csproj.CoreCompileInputs.cache
+C:\Users\dahmDev\Documents\My Docs\coding\projects\ManzelOS-Core\ManzelOS-business-layer\obj\Debug\net8.0\ManzelOS.ED64C39E.Up2Date
+C:\Users\dahmDev\Documents\My Docs\coding\projects\ManzelOS-Core\ManzelOS-business-layer\obj\Debug\net8.0\ManzelOS-business-layer.dll
+C:\Users\dahmDev\Documents\My Docs\coding\projects\ManzelOS-Core\ManzelOS-business-layer\obj\Debug\net8.0\refint\ManzelOS-business-layer.dll
+C:\Users\dahmDev\Documents\My Docs\coding\projects\ManzelOS-Core\ManzelOS-business-layer\obj\Debug\net8.0\ManzelOS-business-layer.pdb
+C:\Users\dahmDev\Documents\My Docs\coding\projects\ManzelOS-Core\ManzelOS-business-layer\obj\Debug\net8.0\ref\ManzelOS-business-layer.dll
+C:\Users\dahmDev\Documents\my_docs\coding\projects\ManzelOS-Core\ManzelOS-business-layer\bin\Debug\net8.0\ManzelOS-business-layer.deps.json
+C:\Users\dahmDev\Documents\my_docs\coding\projects\ManzelOS-Core\ManzelOS-business-layer\bin\Debug\net8.0\ManzelOS-business-layer.dll
+C:\Users\dahmDev\Documents\my_docs\coding\projects\ManzelOS-Core\ManzelOS-business-layer\bin\Debug\net8.0\ManzelOS-business-layer.pdb
+C:\Users\dahmDev\Documents\my_docs\coding\projects\ManzelOS-Core\ManzelOS-business-layer\bin\Debug\net8.0\ManzelOS-data-access-layer.dll
+C:\Users\dahmDev\Documents\my_docs\coding\projects\ManzelOS-Core\ManzelOS-business-layer\bin\Debug\net8.0\ManzelOS-data-access-layer.pdb
+C:\Users\dahmDev\Documents\my_docs\coding\projects\ManzelOS-Core\ManzelOS-business-layer\obj\Debug\net8.0\ManzelOS-business-layer.csproj.AssemblyReference.cache
+C:\Users\dahmDev\Documents\my_docs\coding\projects\ManzelOS-Core\ManzelOS-business-layer\obj\Debug\net8.0\ManzelOS-business-layer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dahmDev\Documents\my_docs\coding\projects\ManzelOS-Core\ManzelOS-business-layer\obj\Debug\net8.0\ManzelOS-business-layer.AssemblyInfoInputs.cache
+C:\Users\dahmDev\Documents\my_docs\coding\projects\ManzelOS-Core\ManzelOS-business-layer\obj\Debug\net8.0\ManzelOS-business-layer.AssemblyInfo.cs
+C:\Users\dahmDev\Documents\my_docs\coding\projects\ManzelOS-Core\ManzelOS-business-layer\obj\Debug\net8.0\ManzelOS-business-layer.csproj.CoreCompileInputs.cache
+C:\Users\dahmDev\Documents\my_docs\coding\projects\ManzelOS-Core\ManzelOS-business-layer\obj\Debug\net8.0\ManzelOS-business-layer.sourcelink.json
+C:\Users\dahmDev\Documents\my_docs\coding\projects\ManzelOS-Core\ManzelOS-business-layer\obj\Debug\net8.0\ManzelOS.ED64C39E.Up2Date
+C:\Users\dahmDev\Documents\my_docs\coding\projects\ManzelOS-Core\ManzelOS-business-layer\obj\Debug\net8.0\ManzelOS-business-layer.dll
+C:\Users\dahmDev\Documents\my_docs\coding\projects\ManzelOS-Core\ManzelOS-business-layer\obj\Debug\net8.0\refint\ManzelOS-business-layer.dll
+C:\Users\dahmDev\Documents\my_docs\coding\projects\ManzelOS-Core\ManzelOS-business-layer\obj\Debug\net8.0\ManzelOS-business-layer.pdb
+C:\Users\dahmDev\Documents\my_docs\coding\projects\ManzelOS-Core\ManzelOS-business-layer\obj\Debug\net8.0\ref\ManzelOS-business-layer.dll
+C:\Users\dahmDev\Documents\my_docs\coding\projects\ManzelOS_Solution\ManzelOS-Core\ManzelOS-business-layer\bin\Debug\net8.0\ManzelOS-business-layer.deps.json
+C:\Users\dahmDev\Documents\my_docs\coding\projects\ManzelOS_Solution\ManzelOS-Core\ManzelOS-business-layer\bin\Debug\net8.0\ManzelOS-business-layer.dll
+C:\Users\dahmDev\Documents\my_docs\coding\projects\ManzelOS_Solution\ManzelOS-Core\ManzelOS-business-layer\bin\Debug\net8.0\ManzelOS-business-layer.pdb
+C:\Users\dahmDev\Documents\my_docs\coding\projects\ManzelOS_Solution\ManzelOS-Core\ManzelOS-business-layer\bin\Debug\net8.0\ManzelOS-data-access-layer.dll
+C:\Users\dahmDev\Documents\my_docs\coding\projects\ManzelOS_Solution\ManzelOS-Core\ManzelOS-business-layer\bin\Debug\net8.0\ManzelOS-data-access-layer.pdb
+C:\Users\dahmDev\Documents\my_docs\coding\projects\ManzelOS_Solution\ManzelOS-Core\ManzelOS-business-layer\obj\Debug\net8.0\ManzelOS-business-layer.csproj.AssemblyReference.cache
+C:\Users\dahmDev\Documents\my_docs\coding\projects\ManzelOS_Solution\ManzelOS-Core\ManzelOS-business-layer\obj\Debug\net8.0\ManzelOS-business-layer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dahmDev\Documents\my_docs\coding\projects\ManzelOS_Solution\ManzelOS-Core\ManzelOS-business-layer\obj\Debug\net8.0\ManzelOS-business-layer.AssemblyInfoInputs.cache
+C:\Users\dahmDev\Documents\my_docs\coding\projects\ManzelOS_Solution\ManzelOS-Core\ManzelOS-business-layer\obj\Debug\net8.0\ManzelOS-business-layer.AssemblyInfo.cs
+C:\Users\dahmDev\Documents\my_docs\coding\projects\ManzelOS_Solution\ManzelOS-Core\ManzelOS-business-layer\obj\Debug\net8.0\ManzelOS-business-layer.csproj.CoreCompileInputs.cache
+C:\Users\dahmDev\Documents\my_docs\coding\projects\ManzelOS_Solution\ManzelOS-Core\ManzelOS-business-layer\obj\Debug\net8.0\ManzelOS-business-layer.sourcelink.json
+C:\Users\dahmDev\Documents\my_docs\coding\projects\ManzelOS_Solution\ManzelOS-Core\ManzelOS-business-layer\obj\Debug\net8.0\ManzelOS.ED64C39E.Up2Date
+C:\Users\dahmDev\Documents\my_docs\coding\projects\ManzelOS_Solution\ManzelOS-Core\ManzelOS-business-layer\obj\Debug\net8.0\ManzelOS-business-layer.dll
+C:\Users\dahmDev\Documents\my_docs\coding\projects\ManzelOS_Solution\ManzelOS-Core\ManzelOS-business-layer\obj\Debug\net8.0\refint\ManzelOS-business-layer.dll
+C:\Users\dahmDev\Documents\my_docs\coding\projects\ManzelOS_Solution\ManzelOS-Core\ManzelOS-business-layer\obj\Debug\net8.0\ManzelOS-business-layer.pdb
+C:\Users\dahmDev\Documents\my_docs\coding\projects\ManzelOS_Solution\ManzelOS-Core\ManzelOS-business-layer\obj\Debug\net8.0\ref\ManzelOS-business-layer.dll
