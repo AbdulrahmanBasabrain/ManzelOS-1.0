@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Dd5BE2ASZbw=",
+  "dgSpecHash": "B5ipLviOzDU=",
   "success": true,
-  "projectFilePath": "C:\\Users\\dahmDev\\Documents\\my_docs\\coding\\projects\\ManzelOS_Solution\\ManzelOS_Core\\ManzelOS-data-access-layer\\ManzelOS-data-access-layer.csproj",
+  "projectFilePath": "C:\\Users\\dahmDev\\Documents\\my_docs\\coding\\projects\\ManzelOS_Solution\\ManzelOS_Core\\ManzelOS_data_ access_layer\\ManzelOS_data_access_layer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dahmDev\\.nuget\\packages\\azure.core\\1.47.1\\azure.core.1.47.1.nupkg.sha512",
     "C:\\Users\\dahmDev\\.nuget\\packages\\azure.identity\\1.14.2\\azure.identity.1.14.2.nupkg.sha512",

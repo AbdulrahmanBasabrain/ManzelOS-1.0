@@ -722,6 +722,45 @@
         "runtime": {
           "bin/placeholder/ManzelOS-data-access-layer.dll": {}
         }
+      },
+      "ManzelOS_business_layer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "ManzelOS-data-access-layer": "1.0.0",
+          "ManzelOS_DTOs": "1.0.0",
+          "ManzelOS_data_access_layer": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ManzelOS_business_layer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ManzelOS_business_layer.dll": {}
+        }
+      },
+      "ManzelOS_data_access_layer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "ManzelOS_DTOs": "1.0.0",
+          "Microsoft.Data.SqlClient": "6.1.2"
+        },
+        "compile": {
+          "bin/placeholder/ManzelOS_data_access_layer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ManzelOS_data_access_layer.dll": {}
+        }
+      },
+      "ManzelOS_DTOs/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/ManzelOS_DTOs.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ManzelOS_DTOs.dll": {}
+        }
       }
     }
   },
@@ -2061,11 +2100,27 @@
       "type": "project",
       "path": "../ManzelOS-data-access-layer/ManzelOS-data-access-layer.csproj",
       "msbuildProject": "../ManzelOS-data-access-layer/ManzelOS-data-access-layer.csproj"
+    },
+    "ManzelOS_business_layer/1.0.0": {
+      "type": "project",
+      "path": "../ManzelOS_business-layer/ManzelOS_business_layer.csproj",
+      "msbuildProject": "../ManzelOS_business-layer/ManzelOS_business_layer.csproj"
+    },
+    "ManzelOS_data_access_layer/1.0.0": {
+      "type": "project",
+      "path": "../ManzelOS_data_ access_layer/ManzelOS_data_access_layer.csproj",
+      "msbuildProject": "../ManzelOS_data_ access_layer/ManzelOS_data_access_layer.csproj"
+    },
+    "ManzelOS_DTOs/1.0.0": {
+      "type": "project",
+      "path": "../ManzelOS_DTOs/ManzelOS_DTOs.csproj",
+      "msbuildProject": "../ManzelOS_DTOs/ManzelOS_DTOs.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "ManzelOS-business-layer >= 1.0.0",
+      "ManzelOS_business_layer >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.6.2"
     ]
   },
@@ -2076,11 +2131,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dahmDev\\Documents\\my_docs\\coding\\projects\\ManzelOS_Solution\\ManzelOS_Core\\ManzelOS-Core\\ManzelOS-Core.csproj",
-      "projectName": "ManzelOS-Core",
-      "projectPath": "C:\\Users\\dahmDev\\Documents\\my_docs\\coding\\projects\\ManzelOS_Solution\\ManzelOS_Core\\ManzelOS-Core\\ManzelOS-Core.csproj",
+      "projectUniqueName": "C:\\Users\\dahmDev\\Documents\\my_docs\\coding\\projects\\ManzelOS_Solution\\ManzelOS_Core\\ManzelOS_Core\\ManzelOS_Core.csproj",
+      "projectName": "ManzelOS_Core",
+      "projectPath": "C:\\Users\\dahmDev\\Documents\\my_docs\\coding\\projects\\ManzelOS_Solution\\ManzelOS_Core\\ManzelOS_Core\\ManzelOS_Core.csproj",
       "packagesPath": "C:\\Users\\dahmDev\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dahmDev\\Documents\\my_docs\\coding\\projects\\ManzelOS_Solution\\ManzelOS_Core\\ManzelOS-Core\\obj\\",
+      "outputPath": "C:\\Users\\dahmDev\\Documents\\my_docs\\coding\\projects\\ManzelOS_Solution\\ManzelOS_Core\\ManzelOS_Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2103,6 +2158,9 @@
           "projectReferences": {
             "C:\\Users\\dahmDev\\Documents\\my_docs\\coding\\projects\\ManzelOS_Solution\\ManzelOS_Core\\ManzelOS-business-layer\\ManzelOS-business-layer.csproj": {
               "projectPath": "C:\\Users\\dahmDev\\Documents\\my_docs\\coding\\projects\\ManzelOS_Solution\\ManzelOS_Core\\ManzelOS-business-layer\\ManzelOS-business-layer.csproj"
+            },
+            "C:\\Users\\dahmDev\\Documents\\my_docs\\coding\\projects\\ManzelOS_Solution\\ManzelOS_Core\\ManzelOS_business-layer\\ManzelOS_business_layer.csproj": {
+              "projectPath": "C:\\Users\\dahmDev\\Documents\\my_docs\\coding\\projects\\ManzelOS_Solution\\ManzelOS_Core\\ManzelOS_business-layer\\ManzelOS_business_layer.csproj"
             }
           }
         }
@@ -2147,7 +2205,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.310/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

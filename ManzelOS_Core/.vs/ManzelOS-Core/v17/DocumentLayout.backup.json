@@ -1,16 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\dahmDev\\Documents\\my_docs\\coding\\projects\\ManzelOS_Solution\\ManzelOS-Core\\ManzelOS-Core\\",
+  "WorkspaceRootPath": "C:\\Users\\dahmDev\\Documents\\my_docs\\coding\\projects\\ManzelOS_Solution\\ManzelOS_Core\\ManzelOS_Core\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8BE4E7CE-7BCE-4F91-AD6D-1157FA262B88}|..\\ManzelOS-data-access-layer\\ManzelOS-data-access-layer.csproj|c:\\users\\dahmdev\\documents\\my_docs\\coding\\projects\\manzelos_solution\\manzelos-core\\manzelos-data-access-layer\\employeesdata\\clsemployeedataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{57A71519-1CC4-EA0B-625C-20C3AB0F7CEC}|..\\ManzelOS_data_ access_layer\\ManzelOS_data_access_layer.csproj|c:\\users\\dahmdev\\documents\\my_docs\\coding\\projects\\manzelos_solution\\manzelos_core\\manzelos_data_ access_layer\\employeesdata\\clsemployeedataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A0DC4707-4D0C-4F51-BDCB-9FF82E6ECAE7}|ManzelOS-Core.csproj|c:\\users\\dahmdev\\documents\\my_docs\\coding\\projects\\manzelos_solution\\manzelos-core\\manzelos-core\\controllers\\employees\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A0DC4707-4D0C-4F51-BDCB-9FF82E6ECAE7}|ManzelOS-Core.csproj|solutionrelative:controllers\\employees\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D639F7F5-ABCE-0792-8A35-C56A96882C1A}|..\\ManzelOS_business-layer\\ManzelOS_business_layer.csproj|c:\\users\\dahmdev\\documents\\my_docs\\coding\\projects\\manzelos_solution\\manzelos_core\\manzelos_business-layer\\employees\\clsemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E3626F15-FD3B-4478-842B-9BFECAFEABD6}|..\\ManzelOS-business-layer\\ManzelOS-business-layer.csproj|c:\\users\\dahmdev\\documents\\my_docs\\coding\\projects\\manzelos_solution\\manzelos-core\\manzelos-business-layer\\employees\\clsemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D639F7F5-ABCE-0792-8A35-C56A96882C1A}|..\\ManzelOS_business-layer\\ManzelOS_business_layer.csproj|c:\\users\\dahmdev\\documents\\my_docs\\coding\\projects\\manzelos_solution\\manzelos_core\\manzelos_business-layer\\employees\\clspropertymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CAA8F5A-5560-6ED0-4352-DE580D26749F}|ManzelOS_Core.csproj|c:\\users\\dahmdev\\documents\\my_docs\\coding\\projects\\manzelos_solution\\manzelos_core\\manzelos_core\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CAA8F5A-5560-6ED0-4352-DE580D26749F}|ManzelOS_Core.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CAA8F5A-5560-6ED0-4352-DE580D26749F}|ManzelOS_Core.csproj|c:\\users\\dahmdev\\documents\\my_docs\\coding\\projects\\manzelos_solution\\manzelos_core\\manzelos_core\\controllers\\tenants\\tenantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CAA8F5A-5560-6ED0-4352-DE580D26749F}|ManzelOS_Core.csproj|solutionrelative:controllers\\tenants\\tenantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57A71519-1CC4-EA0B-625C-20C3AB0F7CEC}|..\\ManzelOS_data_ access_layer\\ManzelOS_data_access_layer.csproj|c:\\users\\dahmdev\\documents\\my_docs\\coding\\projects\\manzelos_solution\\manzelos_core\\manzelos_data_ access_layer\\clsdataaccesssettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -20,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -31,41 +41,84 @@
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "clsEmployeeDataAccess.cs",
-              "DocumentMoniker": "C:\\Users\\dahmDev\\Documents\\my_docs\\coding\\projects\\ManzelOS_Solution\\ManzelOS-Core\\ManzelOS-data-access-layer\\EmployeesData\\clsEmployeeDataAccess.cs",
-              "RelativeDocumentMoniker": "..\\ManzelOS-data-access-layer\\EmployeesData\\clsEmployeeDataAccess.cs",
-              "ToolTip": "C:\\Users\\dahmDev\\Documents\\my_docs\\coding\\projects\\ManzelOS_Solution\\ManzelOS-Core\\ManzelOS-data-access-layer\\EmployeesData\\clsEmployeeDataAccess.cs",
-              "RelativeToolTip": "..\\ManzelOS-data-access-layer\\EmployeesData\\clsEmployeeDataAccess.cs",
-              "ViewState": "AgIAAFUAAAAAAAAAAAAYwGIAAAA0AAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\dahmDev\\Documents\\my_docs\\coding\\projects\\ManzelOS_Solution\\ManzelOS_Core\\ManzelOS_data_ access_layer\\EmployeesData\\clsEmployeeDataAccess.cs",
+              "RelativeDocumentMoniker": "..\\ManzelOS_data_ access_layer\\EmployeesData\\clsEmployeeDataAccess.cs",
+              "ToolTip": "C:\\Users\\dahmDev\\Documents\\my_docs\\coding\\projects\\ManzelOS_Solution\\ManzelOS_Core\\ManzelOS_data_ access_layer\\EmployeesData\\clsEmployeeDataAccess.cs",
+              "RelativeToolTip": "..\\ManzelOS_data_ access_layer\\EmployeesData\\clsEmployeeDataAccess.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAzwAMBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-31T14:01:09.909Z",
+              "WhenOpened": "2026-02-03T07:41:57.187Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "clsPropertyManager.cs",
+              "DocumentMoniker": "C:\\Users\\dahmDev\\Documents\\my_docs\\coding\\projects\\ManzelOS_Solution\\ManzelOS_Core\\ManzelOS_business-layer\\Employees\\clsPropertyManager.cs",
+              "RelativeDocumentMoniker": "..\\ManzelOS_business-layer\\Employees\\clsPropertyManager.cs",
+              "ToolTip": "C:\\Users\\dahmDev\\Documents\\my_docs\\coding\\projects\\ManzelOS_Solution\\ManzelOS_Core\\ManzelOS_business-layer\\Employees\\clsPropertyManager.cs",
+              "RelativeToolTip": "..\\ManzelOS_business-layer\\Employees\\clsPropertyManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-03T05:53:15.114Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "EmployeeController.cs",
-              "DocumentMoniker": "C:\\Users\\dahmDev\\Documents\\my_docs\\coding\\projects\\ManzelOS_Solution\\ManzelOS-Core\\ManzelOS-Core\\Controllers\\Employees\\EmployeeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\Employees\\EmployeeController.cs",
-              "ToolTip": "C:\\Users\\dahmDev\\Documents\\my_docs\\coding\\projects\\ManzelOS_Solution\\ManzelOS-Core\\ManzelOS-Core\\Controllers\\Employees\\EmployeeController.cs",
-              "RelativeToolTip": "Controllers\\Employees\\EmployeeController.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAgwGMAAAAMAAAAAAAAAA==",
+              "Title": "clsEmployee.cs",
+              "DocumentMoniker": "C:\\Users\\dahmDev\\Documents\\my_docs\\coding\\projects\\ManzelOS_Solution\\ManzelOS_Core\\ManzelOS_business-layer\\Employees\\clsEmployee.cs",
+              "RelativeDocumentMoniker": "..\\ManzelOS_business-layer\\Employees\\clsEmployee.cs",
+              "ToolTip": "C:\\Users\\dahmDev\\Documents\\my_docs\\coding\\projects\\ManzelOS_Solution\\ManzelOS_Core\\ManzelOS_business-layer\\Employees\\clsEmployee.cs",
+              "RelativeToolTip": "..\\ManzelOS_business-layer\\Employees\\clsEmployee.cs",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAiwHIAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-31T14:00:44.049Z"
+              "WhenOpened": "2026-02-02T23:25:40.41Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "clsEmployee.cs",
-              "DocumentMoniker": "C:\\Users\\dahmDev\\Documents\\my_docs\\coding\\projects\\ManzelOS_Solution\\ManzelOS-Core\\ManzelOS-business-layer\\Employees\\clsEmployee.cs",
-              "RelativeDocumentMoniker": "..\\ManzelOS-business-layer\\Employees\\clsEmployee.cs",
-              "ToolTip": "C:\\Users\\dahmDev\\Documents\\my_docs\\coding\\projects\\ManzelOS_Solution\\ManzelOS-Core\\ManzelOS-business-layer\\Employees\\clsEmployee.cs",
-              "RelativeToolTip": "..\\ManzelOS-business-layer\\Employees\\clsEmployee.cs",
+              "DocumentIndex": 5,
+              "Title": "clsDataAccessSettings.cs",
+              "DocumentMoniker": "C:\\Users\\dahmDev\\Documents\\my_docs\\coding\\projects\\ManzelOS_Solution\\ManzelOS_Core\\ManzelOS_data_ access_layer\\clsDataAccessSettings.cs",
+              "RelativeDocumentMoniker": "..\\ManzelOS_data_ access_layer\\clsDataAccessSettings.cs",
+              "ToolTip": "C:\\Users\\dahmDev\\Documents\\my_docs\\coding\\projects\\ManzelOS_Solution\\ManzelOS_Core\\ManzelOS_data_ access_layer\\clsDataAccessSettings.cs",
+              "RelativeToolTip": "..\\ManzelOS_data_ access_layer\\clsDataAccessSettings.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-31T14:00:27.479Z"
+              "WhenOpened": "2026-02-02T23:25:34.814Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TenantController.cs",
+              "DocumentMoniker": "C:\\Users\\dahmDev\\Documents\\my_docs\\coding\\projects\\ManzelOS_Solution\\ManzelOS_Core\\ManzelOS_Core\\Controllers\\Tenants\\TenantController.cs",
+              "RelativeDocumentMoniker": "Controllers\\Tenants\\TenantController.cs",
+              "ToolTip": "C:\\Users\\dahmDev\\Documents\\my_docs\\coding\\projects\\ManzelOS_Solution\\ManzelOS_Core\\ManzelOS_Core\\Controllers\\Tenants\\TenantController.cs",
+              "RelativeToolTip": "Controllers\\Tenants\\TenantController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T23:24:04.894Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\dahmDev\\Documents\\my_docs\\coding\\projects\\ManzelOS_Solution\\ManzelOS_Core\\ManzelOS_Core\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\dahmDev\\Documents\\my_docs\\coding\\projects\\ManzelOS_Solution\\ManzelOS_Core\\ManzelOS_Core\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T23:21:34.111Z",
+              "EditorCaption": ""
             }
           ]
         }

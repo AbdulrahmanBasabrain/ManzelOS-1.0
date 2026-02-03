@@ -1,7 +1,7 @@
 ﻿using ManzelOS_business_layer;
 using ManzelOS_business_layer.RentalUnits.RentalUnit;
 using ManzelOS_data_access_layer.PeopleData;
-using ManzelOS_data_access_layer.RentalUnitsData.RentalUnitsData;
+using ManzelOS_data_access_layer.RentalUnitsData;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 

@@ -609,6 +609,16 @@
         "build": {
           "buildTransitive/net6.0/System.Text.Json.targets": {}
         }
+      },
+      "ManzelOS_DTOs/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/ManzelOS_DTOs.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ManzelOS_DTOs.dll": {}
+        }
       }
     }
   },
@@ -1590,10 +1600,16 @@
         "system.text.json.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "ManzelOS_DTOs/1.0.0": {
+      "type": "project",
+      "path": "../ManzelOS_DTOs/ManzelOS_DTOs.csproj",
+      "msbuildProject": "../ManzelOS_DTOs/ManzelOS_DTOs.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "ManzelOS_DTOs >= 1.0.0",
       "Microsoft.Data.SqlClient >= 6.1.2"
     ]
   },
@@ -1604,11 +1620,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dahmDev\\Documents\\my_docs\\coding\\projects\\ManzelOS_Solution\\ManzelOS_Core\\ManzelOS-data-access-layer\\ManzelOS-data-access-layer.csproj",
-      "projectName": "ManzelOS-data-access-layer",
-      "projectPath": "C:\\Users\\dahmDev\\Documents\\my_docs\\coding\\projects\\ManzelOS_Solution\\ManzelOS_Core\\ManzelOS-data-access-layer\\ManzelOS-data-access-layer.csproj",
+      "projectUniqueName": "C:\\Users\\dahmDev\\Documents\\my_docs\\coding\\projects\\ManzelOS_Solution\\ManzelOS_Core\\ManzelOS_data_ access_layer\\ManzelOS_data_access_layer.csproj",
+      "projectName": "ManzelOS_data_access_layer",
+      "projectPath": "C:\\Users\\dahmDev\\Documents\\my_docs\\coding\\projects\\ManzelOS_Solution\\ManzelOS_Core\\ManzelOS_data_ access_layer\\ManzelOS_data_access_layer.csproj",
       "packagesPath": "C:\\Users\\dahmDev\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dahmDev\\Documents\\my_docs\\coding\\projects\\ManzelOS_Solution\\ManzelOS_Core\\ManzelOS-data-access-layer\\obj\\",
+      "outputPath": "C:\\Users\\dahmDev\\Documents\\my_docs\\coding\\projects\\ManzelOS_Solution\\ManzelOS_Core\\ManzelOS_data_ access_layer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1628,7 +1644,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\dahmDev\\Documents\\my_docs\\coding\\projects\\ManzelOS_Solution\\ManzelOS_Core\\ManzelOS_DTOs\\ManzelOS_DTOs.csproj": {
+              "projectPath": "C:\\Users\\dahmDev\\Documents\\my_docs\\coding\\projects\\ManzelOS_Solution\\ManzelOS_Core\\ManzelOS_DTOs\\ManzelOS_DTOs.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -1668,7 +1688,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.310/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

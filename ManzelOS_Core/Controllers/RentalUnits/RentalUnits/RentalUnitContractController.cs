@@ -1,5 +1,5 @@
 ﻿using ManzelOS_business_layer.RentalUnits.RentalUnitsContracts;
-using ManzelOS_data_access_layer.RentalUnitsData.RentalUnitsContractsData;
+using ManzelOS_data_access_layer.RentalUnitsData;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
