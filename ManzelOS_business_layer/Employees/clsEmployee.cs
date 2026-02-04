@@ -1,6 +1,5 @@
-﻿using System;
-using System.Data;
-using ManzelOS_data_access_layer.EmployeesData;
+﻿using ManzelOS_data_access_layer.EmployeesData;
+using ManzelOS_DTOs.Employees;
 
 namespace ManzelOS_business_layer
 {

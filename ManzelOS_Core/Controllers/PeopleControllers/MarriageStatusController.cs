@@ -1,6 +1,5 @@
 ﻿using ManzelOS_business_layer;
-using ManzelOS_data_access_layer.PeopleData;
-using Microsoft.AspNetCore.Http;
+using ManzelOS_DTOs.People;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ManzelOS_Core.Controllers.PeopleControllers

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Data;
+using ManzelOS_DTOs.People;
 using ManzelOS_data_access_layer.PeopleData;
 
 namespace ManzelOS_business_layer

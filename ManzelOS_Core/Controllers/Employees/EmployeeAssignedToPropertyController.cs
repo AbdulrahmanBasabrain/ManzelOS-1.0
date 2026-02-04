@@ -1,6 +1,5 @@
 ﻿using ManzelOS_business_layer.RentalUnits.RentalUnit;
-using ManzelOS_data_access_layer.RentalUnitsData;
-using Microsoft.AspNetCore.Http;
+using ManzelOS_DTOs.RentalUnits;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ManzelOS_Core.Controllers.Employees
@@ -16,7 +15,7 @@ namespace ManzelOS_Core.Controllers.Employees
 
         public ActionResult<IEnumerable<AssignEmployeeToPropertyDTO>>ListEmployeePropertyAssignments()
         {
-            List<AssignEmployeeToPropertyDTO> assignEmployeeToPropertyList = clsRentalUnitAssignedToEmployeeDataAccess.ListEmployeeRentalUnitRelations();
+            List<AssignEmployeeToPropertyDTO> assignEmployeeToPropertyList = clsRentalUnitAssignedToEmployee.ListEmployeeAssignedToBuildingEmployees();
 
             if(assignEmployeeToPropertyList.Count < 0)
             {

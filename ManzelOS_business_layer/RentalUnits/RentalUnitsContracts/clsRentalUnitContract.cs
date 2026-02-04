@@ -1,8 +1,9 @@
 ﻿using System;
 using System.Data;
+using ManzelOS_DTOs.RentalUnits;
 using ManzelOS_data_access_layer.RentalUnitsData;
 
-namespace ManzelOS_business_layer.RentalUnits.RentalUnitsContracts
+namespace ManzelOS_business_layer.RentalUnits
 {
     public class clsRentalUnitContract
     {

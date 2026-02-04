@@ -1,5 +1,4 @@
-﻿using System;
-using System.Data;
+﻿using ManzelOS_DTOs.Tenants;
 using ManzelOS_data_access_layer.TenantsData;
 
 namespace ManzelOS_business_layer

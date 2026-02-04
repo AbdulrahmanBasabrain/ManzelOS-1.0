@@ -9,7 +9,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[ManzelOS_data_access_layer.PaymentsData.BillingPeriodTypeDTO, ManzelOS_data_access_layer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ManzelOS_DTOs.Payments.BillingPeriodTypeDTO, ManzelOS_DTOs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -39,7 +39,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[ManzelOS_data_access_layer.PaymentsData.BillTypeDTO, ManzelOS_data_access_layer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ManzelOS_DTOs.Payments.BillTypeDTO, ManzelOS_DTOs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -75,7 +75,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "ManzelOS_data_access_layer.PeopleData.CityDTO",
+        "Type": "ManzelOS_DTOs.People.CityDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -114,7 +114,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[ManzelOS_data_access_layer.PeopleData.CityDTO, ManzelOS_data_access_layer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ManzelOS_DTOs.People.CityDTO, ManzelOS_DTOs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -150,7 +150,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "ManzelOS_data_access_layer.PeopleData.ContinentDTO",
+        "Type": "ManzelOS_DTOs.People.ContinentDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -189,7 +189,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[ManzelOS_data_access_layer.PeopleData.PeopleDTO, ManzelOS_data_access_layer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ManzelOS_DTOs.People.PeopleDTO, ManzelOS_DTOs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -225,7 +225,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "ManzelOS_data_access_layer.PeopleData.CountryDTO",
+        "Type": "ManzelOS_DTOs.People.CountryDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -264,7 +264,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[ManzelOS_data_access_layer.PeopleData.CountryDTO, ManzelOS_data_access_layer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ManzelOS_DTOs.People.CountryDTO, ManzelOS_DTOs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -300,7 +300,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "ManzelOS_data_access_layer.RentalUnitsData.RentalUnitsData.AssignEmployeeToPropertyDTO",
+        "Type": "ManzelOS_DTOs.RentalUnits.AssignEmployeeToPropertyDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -330,13 +330,13 @@
     "Parameters": [
       {
         "Name": "assignEmployeeToPropertyDTO",
-        "Type": "ManzelOS_data_access_layer.RentalUnitsData.RentalUnitsData.AssignEmployeeToPropertyDTO",
+        "Type": "ManzelOS_DTOs.RentalUnits.AssignEmployeeToPropertyDTO",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "ManzelOS_data_access_layer.RentalUnitsData.RentalUnitsData.AssignEmployeeToPropertyDTO",
+        "Type": "ManzelOS_DTOs.RentalUnits.AssignEmployeeToPropertyDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -380,13 +380,13 @@
       },
       {
         "Name": "assignEmployeeToPropertyDTO",
-        "Type": "ManzelOS_data_access_layer.RentalUnitsData.RentalUnitsData.AssignEmployeeToPropertyDTO",
+        "Type": "ManzelOS_DTOs.RentalUnits.AssignEmployeeToPropertyDTO",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "ManzelOS_data_access_layer.RentalUnitsData.RentalUnitsData.AssignEmployeeToPropertyDTO",
+        "Type": "ManzelOS_DTOs.RentalUnits.AssignEmployeeToPropertyDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -466,7 +466,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[ManzelOS_data_access_layer.RentalUnitsData.RentalUnitsData.AssignEmployeeToPropertyDTO, ManzelOS_data_access_layer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ManzelOS_DTOs.RentalUnits.AssignEmployeeToPropertyDTO, ManzelOS_DTOs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -537,13 +537,13 @@
     "Parameters": [
       {
         "Name": "employeeDTO",
-        "Type": "ManzelOS_data_access_layer.EmployeesData.EmployeeDTO",
+        "Type": "ManzelOS_DTOs.Employees.EmployeeDTO",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "ManzelOS_data_access_layer.EmployeesData.EmployeeDTO",
+        "Type": "ManzelOS_DTOs.Employees.EmployeeDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -579,7 +579,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "ManzelOS_data_access_layer.EmployeesData.EmployeeDTO",
+        "Type": "ManzelOS_DTOs.Employees.EmployeeDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -609,7 +609,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[ManzelOS_data_access_layer.EmployeesData.EmployeeDTO, ManzelOS_data_access_layer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ManzelOS_DTOs.Employees.EmployeeDTO, ManzelOS_DTOs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -644,13 +644,13 @@
       },
       {
         "Name": "employeeDTO",
-        "Type": "ManzelOS_data_access_layer.EmployeesData.EmployeeDTO",
+        "Type": "ManzelOS_DTOs.Employees.EmployeeDTO",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "ManzelOS_data_access_layer.EmployeesData.EmployeeDTO",
+        "Type": "ManzelOS_DTOs.Employees.EmployeeDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -689,13 +689,13 @@
     "Parameters": [
       {
         "Name": "generatedBillDTO",
-        "Type": "ManzelOS_data_access_layer.PaymentsData.GeneratedBillDTO",
+        "Type": "ManzelOS_DTOs.Payments.GeneratedBillDTO",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "ManzelOS_data_access_layer.PaymentsData.GeneratedBillDTO",
+        "Type": "ManzelOS_DTOs.Payments.GeneratedBillDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -772,7 +772,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "ManzelOS_data_access_layer.PaymentsData.GeneratedBillDTO",
+        "Type": "ManzelOS_DTOs.Payments.GeneratedBillDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -811,7 +811,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[ManzelOS_data_access_layer.PaymentsData.GeneratedBillDTO, ManzelOS_data_access_layer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ManzelOS_DTOs.Payments.GeneratedBillDTO, ManzelOS_DTOs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -846,13 +846,13 @@
       },
       {
         "Name": "generatedBillDTO",
-        "Type": "ManzelOS_data_access_layer.PaymentsData.GeneratedBillDTO",
+        "Type": "ManzelOS_DTOs.Payments.GeneratedBillDTO",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "ManzelOS_data_access_layer.PaymentsData.GeneratedBillDTO",
+        "Type": "ManzelOS_DTOs.Payments.GeneratedBillDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -891,7 +891,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[ManzelOS_data_access_layer.PaymentsData.BillPaymentStatusDTO, ManzelOS_data_access_layer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ManzelOS_DTOs.Payments.BillPaymentStatusDTO, ManzelOS_DTOs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -921,7 +921,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[ManzelOS_data_access_layer.PeopleData.MarriageStatusDTO, ManzelOS_data_access_layer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ManzelOS_DTOs.People.MarriageStatusDTO, ManzelOS_DTOs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -983,13 +983,13 @@
     "Parameters": [
       {
         "Name": "ownerDTO",
-        "Type": "ManzelOS_data_access_layer.OwnersData.OwnerDTO",
+        "Type": "ManzelOS_DTOs.Owners.OwnerDTO",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "ManzelOS_data_access_layer.OwnersData.OwnerDTO",
+        "Type": "ManzelOS_DTOs.Owners.OwnerDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -1025,7 +1025,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "ManzelOS_data_access_layer.OwnersData.OwnerDTO",
+        "Type": "ManzelOS_DTOs.Owners.OwnerDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -1064,7 +1064,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[ManzelOS_data_access_layer.OwnersData.OwnerDTO, ManzelOS_data_access_layer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ManzelOS_DTOs.Owners.OwnerDTO, ManzelOS_DTOs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -1094,13 +1094,13 @@
     "Parameters": [
       {
         "Name": "paymentDTO",
-        "Type": "ManzelOS_data_access_layer.PaymentsData.PaymentDTO",
+        "Type": "ManzelOS_DTOs.Payments.PaymentDTO",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "ManzelOS_data_access_layer.PaymentsData.PaymentDTO",
+        "Type": "ManzelOS_DTOs.Payments.PaymentDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -1145,7 +1145,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "ManzelOS_data_access_layer.PaymentsData.PaymentDTO",
+        "Type": "ManzelOS_DTOs.Payments.PaymentDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -1184,7 +1184,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[ManzelOS_data_access_layer.PaymentsData.PaymentDTO, ManzelOS_data_access_layer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ManzelOS_DTOs.Payments.PaymentDTO, ManzelOS_DTOs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -1214,7 +1214,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[ManzelOS_data_access_layer.PaymentsData.PaymentMethodDTO, ManzelOS_data_access_layer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ManzelOS_DTOs.Payments.PaymentMethodDTO, ManzelOS_DTOs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -1244,7 +1244,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[ManzelOS_data_access_layer.PaymentsData.PaymentStatusDTO, ManzelOS_data_access_layer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ManzelOS_DTOs.Payments.PaymentStatusDTO, ManzelOS_DTOs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -1285,7 +1285,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "ManzelOS_data_access_layer.PeopleData.PeopleDTO",
+        "Type": "ManzelOS_DTOs.People.PeopleDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -1365,13 +1365,13 @@
     "Parameters": [
       {
         "Name": "newPerson",
-        "Type": "ManzelOS_data_access_layer.PeopleData.PeopleDTO",
+        "Type": "ManzelOS_DTOs.People.PeopleDTO",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "ManzelOS_data_access_layer.PeopleData.PeopleDTO",
+        "Type": "ManzelOS_DTOs.People.PeopleDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -1401,7 +1401,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[ManzelOS_data_access_layer.PeopleData.PeopleDTO, ManzelOS_data_access_layer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ManzelOS_DTOs.People.PeopleDTO, ManzelOS_DTOs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -1436,13 +1436,13 @@
       },
       {
         "Name": "updatedPerson",
-        "Type": "ManzelOS_data_access_layer.PeopleData.PeopleDTO",
+        "Type": "ManzelOS_DTOs.People.PeopleDTO",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "ManzelOS_data_access_layer.PeopleData.PeopleDTO",
+        "Type": "ManzelOS_DTOs.People.PeopleDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -1513,13 +1513,13 @@
     "Parameters": [
       {
         "Name": "propertyManagerDTO",
-        "Type": "ManzelOS_data_access_layer.EmployeesData.PropertyManagerDTO",
+        "Type": "ManzelOS_DTOs.Employees.PropertyManagerDTO",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "ManzelOS_data_access_layer.EmployeesData.PropertyManagerDTO",
+        "Type": "ManzelOS_DTOs.Employees.PropertyManagerDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -1564,7 +1564,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "ManzelOS_data_access_layer.EmployeesData.PropertyManagerDTO",
+        "Type": "ManzelOS_DTOs.Employees.PropertyManagerDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -1603,7 +1603,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[ManzelOS_data_access_layer.EmployeesData.PropertyManagerDTO, ManzelOS_data_access_layer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ManzelOS_DTOs.Employees.PropertyManagerDTO, ManzelOS_DTOs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -1638,13 +1638,13 @@
       },
       {
         "Name": "propertyManagerDTO",
-        "Type": "ManzelOS_data_access_layer.EmployeesData.PropertyManagerDTO",
+        "Type": "ManzelOS_DTOs.Employees.PropertyManagerDTO",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "ManzelOS_data_access_layer.EmployeesData.PropertyManagerDTO",
+        "Type": "ManzelOS_DTOs.Employees.PropertyManagerDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -1674,7 +1674,7 @@
     "EndpointName": "UpdatePropertyManager"
   },
   {
-    "ContainingType": "ManzelOS_Core.Controllers.RentalUnits.RentalUnits.RentalUnitContractController",
+    "ContainingType": "ManzelOS_Core.Controllers.RentalUnits.RentalUnitContractController",
     "Method": "AddNewRentalContract",
     "RelativePath": "api/RentalUnitContractController/AddRentacUnitContract",
     "HttpMethod": "POST",
@@ -1683,13 +1683,13 @@
     "Parameters": [
       {
         "Name": "rentalUnitContractDTO",
-        "Type": "ManzelOS_data_access_layer.RentalUnitsData.RentalUnitsContractsData.RentalUnitContractDTO",
+        "Type": "ManzelOS_DTOs.RentalUnits.RentalUnitContractDTO",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "ManzelOS_data_access_layer.RentalUnitsData.RentalUnitsContractsData.RentalUnitContractDTO",
+        "Type": "ManzelOS_DTOs.RentalUnits.RentalUnitContractDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -1710,7 +1710,7 @@
     "EndpointName": "AddRentacUnitContract"
   },
   {
-    "ContainingType": "ManzelOS_Core.Controllers.RentalUnits.RentalUnits.RentalUnitContractController",
+    "ContainingType": "ManzelOS_Core.Controllers.RentalUnits.RentalUnitContractController",
     "Method": "DeleteRentalUnitContract",
     "RelativePath": "api/RentalUnitContractController/DeleteRentalContract",
     "HttpMethod": "DELETE",
@@ -1742,7 +1742,7 @@
     "EndpointName": "DeleteRentalContract"
   },
   {
-    "ContainingType": "ManzelOS_Core.Controllers.RentalUnits.RentalUnits.RentalUnitContractController",
+    "ContainingType": "ManzelOS_Core.Controllers.RentalUnits.RentalUnitContractController",
     "Method": "FindRentalUnitContractById",
     "RelativePath": "api/RentalUnitContractController/FindRentalUnitContractById",
     "HttpMethod": "GET",
@@ -1757,7 +1757,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "ManzelOS_data_access_layer.RentalUnitsData.RentalUnitsContractsData.RentalUnitContractDTO",
+        "Type": "ManzelOS_DTOs.RentalUnits.RentalUnitContractDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -1778,7 +1778,7 @@
     "EndpointName": "FindRentalUnitContractById"
   },
   {
-    "ContainingType": "ManzelOS_Core.Controllers.RentalUnits.RentalUnits.RentalUnitContractController",
+    "ContainingType": "ManzelOS_Core.Controllers.RentalUnits.RentalUnitContractController",
     "Method": "ListRentalUnitContract",
     "RelativePath": "api/RentalUnitContractController/ListRentalUnitContract",
     "HttpMethod": "GET",
@@ -1787,7 +1787,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "ManzelOS_data_access_layer.RentalUnitsData.RentalUnitsContractsData.RentalUnitContractDTO",
+        "Type": "ManzelOS_DTOs.RentalUnits.RentalUnitContractDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -1808,7 +1808,7 @@
     "EndpointName": "ListRentalUnitContract"
   },
   {
-    "ContainingType": "ManzelOS_Core.Controllers.RentalUnits.RentalUnits.RentalUnitContractController",
+    "ContainingType": "ManzelOS_Core.Controllers.RentalUnits.RentalUnitContractController",
     "Method": "UpdateRentalContract",
     "RelativePath": "api/RentalUnitContractController/UpdateRentalContract",
     "HttpMethod": "POST",
@@ -1822,13 +1822,13 @@
       },
       {
         "Name": "rentalUnitContractDTO",
-        "Type": "ManzelOS_data_access_layer.RentalUnitsData.RentalUnitsContractsData.RentalUnitContractDTO",
+        "Type": "ManzelOS_DTOs.RentalUnits.RentalUnitContractDTO",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "ManzelOS_data_access_layer.RentalUnitsData.RentalUnitsContractsData.RentalUnitContractDTO",
+        "Type": "ManzelOS_DTOs.RentalUnits.RentalUnitContractDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -1858,7 +1858,7 @@
     "EndpointName": "UpdateRentalContract"
   },
   {
-    "ContainingType": "ManzelOS_Core.Controllers.RentalUnits.RentalUnits.RentalUnitController",
+    "ContainingType": "ManzelOS_Core.Controllers.RentalUnits.RentalUnitController",
     "Method": "AddRentalUnit",
     "RelativePath": "api/RentalUnitController/AddNewRentalUnit",
     "HttpMethod": "POST",
@@ -1867,13 +1867,13 @@
     "Parameters": [
       {
         "Name": "rentalUnitDTO",
-        "Type": "ManzelOS_data_access_layer.RentalUnitsData.RentalUnitsData.RentalUnitDTO",
+        "Type": "ManzelOS_DTOs.RentalUnits.RentalUnitDTO",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "ManzelOS_data_access_layer.RentalUnitsData.RentalUnitsData.RentalUnitDTO",
+        "Type": "ManzelOS_DTOs.RentalUnits.RentalUnitDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -1894,7 +1894,7 @@
     "EndpointName": "AddNewRentalUnit"
   },
   {
-    "ContainingType": "ManzelOS_Core.Controllers.RentalUnits.RentalUnits.RentalUnitController",
+    "ContainingType": "ManzelOS_Core.Controllers.RentalUnits.RentalUnitController",
     "Method": "DeleteRentalUnit",
     "RelativePath": "api/RentalUnitController/DeleteRentalUnit",
     "HttpMethod": "DELETE",
@@ -1935,7 +1935,7 @@
     "EndpointName": "DeleteRentalUnit"
   },
   {
-    "ContainingType": "ManzelOS_Core.Controllers.RentalUnits.RentalUnits.RentalUnitController",
+    "ContainingType": "ManzelOS_Core.Controllers.RentalUnits.RentalUnitController",
     "Method": "FindRentalUnitById",
     "RelativePath": "api/RentalUnitController/FindRentalUnitById",
     "HttpMethod": "GET",
@@ -1950,7 +1950,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "ManzelOS_data_access_layer.RentalUnitsData.RentalUnitsData.RentalUnitDTO",
+        "Type": "ManzelOS_DTOs.RentalUnits.RentalUnitDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -1971,7 +1971,7 @@
     "EndpointName": "FindRentalUnitById"
   },
   {
-    "ContainingType": "ManzelOS_Core.Controllers.RentalUnits.RentalUnits.RentalUnitController",
+    "ContainingType": "ManzelOS_Core.Controllers.RentalUnits.RentalUnitController",
     "Method": "ListRentalUnits",
     "RelativePath": "api/RentalUnitController/ListRentalUnits",
     "HttpMethod": "GET",
@@ -1980,7 +1980,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[ManzelOS_data_access_layer.RentalUnitsData.RentalUnitsData.RentalUnitDTO, ManzelOS_data_access_layer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ManzelOS_DTOs.RentalUnits.RentalUnitDTO, ManzelOS_DTOs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -2001,7 +2001,7 @@
     "EndpointName": "ListRentalUnits"
   },
   {
-    "ContainingType": "ManzelOS_Core.Controllers.RentalUnits.RentalUnits.RentalUnitController",
+    "ContainingType": "ManzelOS_Core.Controllers.RentalUnits.RentalUnitController",
     "Method": "UpdateRentalUnit",
     "RelativePath": "api/RentalUnitController/UpdateRentalUnit",
     "HttpMethod": "POST",
@@ -2015,13 +2015,13 @@
       },
       {
         "Name": "rentalUnitDTO",
-        "Type": "ManzelOS_data_access_layer.RentalUnitsData.RentalUnitsData.RentalUnitDTO",
+        "Type": "ManzelOS_DTOs.RentalUnits.RentalUnitDTO",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "ManzelOS_data_access_layer.RentalUnitsData.RentalUnitsData.RentalUnitDTO",
+        "Type": "ManzelOS_DTOs.RentalUnits.RentalUnitDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -2051,7 +2051,7 @@
     "EndpointName": "UpdateRentalUnit"
   },
   {
-    "ContainingType": "ManzelOS_Core.Controllers.RentalUnits.RentalUnitsLookups.RentalUnitTypeController",
+    "ContainingType": "ManzelOS_Core.Controllers.RentalUnits.RentalUnitTypeController",
     "Method": "ListRentalUnitTypes",
     "RelativePath": "api/RentalUnitTypeController/ListRentalUnitTypes",
     "HttpMethod": "GET",
@@ -2060,7 +2060,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[ManzelOS_data_access_layer.RentalUnitsData.RentalUnitsData.RentalUnitTypeDTO, ManzelOS_data_access_layer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ManzelOS_DTOs.RentalUnits.RentalUnitTypeDTO, ManzelOS_DTOs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -2154,13 +2154,13 @@
     "Parameters": [
       {
         "Name": "tenantDTO",
-        "Type": "ManzelOS_data_access_layer.TenantsData.TenantDTO",
+        "Type": "ManzelOS_DTOs.Tenants.TenantDTO",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "ManzelOS_data_access_layer.TenantsData.TenantDTO",
+        "Type": "ManzelOS_DTOs.Tenants.TenantDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -2190,7 +2190,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[ManzelOS_data_access_layer.TenantsData.TenantDTO, ManzelOS_data_access_layer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ManzelOS_DTOs.Tenants.TenantDTO, ManzelOS_DTOs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -2224,13 +2224,13 @@
       },
       {
         "Name": "tenantDTO",
-        "Type": "ManzelOS_data_access_layer.TenantsData.TenantDTO",
+        "Type": "ManzelOS_DTOs.Tenants.TenantDTO",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "ManzelOS_data_access_layer.TenantsData.TenantDTO",
+        "Type": "ManzelOS_DTOs.Tenants.TenantDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",

@@ -1,8 +1,6 @@
 ﻿using ManzelOS_business_layer;
-using ManzelOS_data_access_layer.OwnersData;
-using Microsoft.AspNetCore.Http;
+using ManzelOS_DTOs.Owners;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Identity.Client;
 
 namespace ManzelOS_Core.Controllers.Owners
 {

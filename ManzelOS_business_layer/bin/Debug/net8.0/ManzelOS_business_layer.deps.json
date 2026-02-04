@@ -8,7 +8,7 @@
     ".NETCoreApp,Version=v8.0": {
       "ManzelOS_business_layer/1.0.0": {
         "dependencies": {
-          "ManzelOS-data-access-layer": "1.0.0",
+          "ManzelOS_DTOs": "1.0.0",
           "ManzelOS_data_access_layer": "1.0.0"
         },
         "runtime": {
@@ -414,10 +414,19 @@
       "System.Text.Json/8.0.5": {},
       "ManzelOS_data_access_layer/1.0.0": {
         "dependencies": {
+          "ManzelOS_DTOs": "1.0.0",
           "Microsoft.Data.SqlClient": "6.1.2"
         },
         "runtime": {
           "ManzelOS_data_access_layer.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "ManzelOS_DTOs/1.0.0": {
+        "runtime": {
+          "ManzelOS_DTOs.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -656,6 +665,11 @@
       "hashPath": "system.text.json.8.0.5.nupkg.sha512"
     },
     "ManzelOS_data_access_layer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ManzelOS_DTOs/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

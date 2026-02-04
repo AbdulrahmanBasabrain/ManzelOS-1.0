@@ -4,6 +4,7 @@ C:\Users\dahmDev\Documents\my_docs\coding\projects\ManzelOS_Solution\ManzelOS_Co
 C:\Users\dahmDev\Documents\my_docs\coding\projects\ManzelOS_Solution\ManzelOS_Core\ManzelOS_Core\obj\Debug\net8.0\ManzelOS_Core.AssemblyInfoInputs.cache
 C:\Users\dahmDev\Documents\my_docs\coding\projects\ManzelOS_Solution\ManzelOS_Core\ManzelOS_Core\obj\Debug\net8.0\ManzelOS_Core.AssemblyInfo.cs
 C:\Users\dahmDev\Documents\my_docs\coding\projects\ManzelOS_Solution\ManzelOS_Core\ManzelOS_Core\obj\Debug\net8.0\ManzelOS_Core.csproj.CoreCompileInputs.cache
+C:\Users\dahmDev\Documents\my_docs\coding\projects\ManzelOS_Solution\ManzelOS_Core\ManzelOS_Core\obj\Debug\net8.0\ManzelOS_Core.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\dahmDev\Documents\my_docs\coding\projects\ManzelOS_Solution\ManzelOS_Core\ManzelOS_Core\obj\Debug\net8.0\ManzelOS_Core.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\dahmDev\Documents\my_docs\coding\projects\ManzelOS_Solution\ManzelOS_Core\ManzelOS_Core\obj\Debug\net8.0\ManzelOS_Core.sourcelink.json
 C:\Users\dahmDev\Documents\my_docs\coding\projects\ManzelOS_Solution\ManzelOS_Core\ManzelOS_Core\bin\Debug\net8.0\appsettings.Development.json
@@ -65,7 +66,9 @@ C:\Users\dahmDev\Documents\my_docs\coding\projects\ManzelOS_Solution\ManzelOS_Co
 C:\Users\dahmDev\Documents\my_docs\coding\projects\ManzelOS_Solution\ManzelOS_Core\ManzelOS_Core\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
 C:\Users\dahmDev\Documents\my_docs\coding\projects\ManzelOS_Solution\ManzelOS_Core\ManzelOS_Core\bin\Debug\net8.0\ManzelOS_business_layer.dll
 C:\Users\dahmDev\Documents\my_docs\coding\projects\ManzelOS_Solution\ManzelOS_Core\ManzelOS_Core\bin\Debug\net8.0\ManzelOS_data_access_layer.dll
+C:\Users\dahmDev\Documents\my_docs\coding\projects\ManzelOS_Solution\ManzelOS_Core\ManzelOS_Core\bin\Debug\net8.0\ManzelOS_DTOs.dll
 C:\Users\dahmDev\Documents\my_docs\coding\projects\ManzelOS_Solution\ManzelOS_Core\ManzelOS_Core\bin\Debug\net8.0\ManzelOS_business_layer.pdb
+C:\Users\dahmDev\Documents\my_docs\coding\projects\ManzelOS_Solution\ManzelOS_Core\ManzelOS_Core\bin\Debug\net8.0\ManzelOS_DTOs.pdb
 C:\Users\dahmDev\Documents\my_docs\coding\projects\ManzelOS_Solution\ManzelOS_Core\ManzelOS_Core\bin\Debug\net8.0\ManzelOS_data_access_layer.pdb
 C:\Users\dahmDev\Documents\my_docs\coding\projects\ManzelOS_Solution\ManzelOS_Core\ManzelOS_Core\obj\Debug\net8.0\rjimswa.dswa.cache.json
 C:\Users\dahmDev\Documents\my_docs\coding\projects\ManzelOS_Solution\ManzelOS_Core\ManzelOS_Core\obj\Debug\net8.0\rjsmrazor.dswa.cache.json

@@ -12,8 +12,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ManzelOS-business-layer\ManzelOS-business-layer.csproj" />
-    <ProjectReference Include="..\ManzelOS_business-layer\ManzelOS_business_layer.csproj" />
+    <ProjectReference Include="..\ManzelOS_business_layer\ManzelOS_business_layer.csproj" />
+    <ProjectReference Include="..\ManzelOS_DTOs\ManzelOS_DTOs.csproj" />
   </ItemGroup>
 
 </Project>

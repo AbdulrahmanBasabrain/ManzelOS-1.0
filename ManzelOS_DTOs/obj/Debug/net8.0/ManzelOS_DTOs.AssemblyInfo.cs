@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ManzelOS_DTOs")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+90db21caa8a2eeba7a6313f8e4b80fb475aef31f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+23c502a5d03f98b6d541ca51870d1fb5969f5081")]
 [assembly: System.Reflection.AssemblyProductAttribute("ManzelOS_DTOs")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ManzelOS_DTOs")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,12 @@
+C:\Users\dahmDev\Documents\my_docs\coding\projects\ManzelOS_Solution\ManzelOS_Core\ManzelOS_DTOs\bin\Debug\net8.0\ManzelOS_DTOs.deps.json
+C:\Users\dahmDev\Documents\my_docs\coding\projects\ManzelOS_Solution\ManzelOS_Core\ManzelOS_DTOs\bin\Debug\net8.0\ManzelOS_DTOs.dll
+C:\Users\dahmDev\Documents\my_docs\coding\projects\ManzelOS_Solution\ManzelOS_Core\ManzelOS_DTOs\bin\Debug\net8.0\ManzelOS_DTOs.pdb
+C:\Users\dahmDev\Documents\my_docs\coding\projects\ManzelOS_Solution\ManzelOS_Core\ManzelOS_DTOs\obj\Debug\net8.0\ManzelOS_DTOs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dahmDev\Documents\my_docs\coding\projects\ManzelOS_Solution\ManzelOS_Core\ManzelOS_DTOs\obj\Debug\net8.0\ManzelOS_DTOs.AssemblyInfoInputs.cache
+C:\Users\dahmDev\Documents\my_docs\coding\projects\ManzelOS_Solution\ManzelOS_Core\ManzelOS_DTOs\obj\Debug\net8.0\ManzelOS_DTOs.AssemblyInfo.cs
+C:\Users\dahmDev\Documents\my_docs\coding\projects\ManzelOS_Solution\ManzelOS_Core\ManzelOS_DTOs\obj\Debug\net8.0\ManzelOS_DTOs.csproj.CoreCompileInputs.cache
+C:\Users\dahmDev\Documents\my_docs\coding\projects\ManzelOS_Solution\ManzelOS_Core\ManzelOS_DTOs\obj\Debug\net8.0\ManzelOS_DTOs.sourcelink.json
+C:\Users\dahmDev\Documents\my_docs\coding\projects\ManzelOS_Solution\ManzelOS_Core\ManzelOS_DTOs\obj\Debug\net8.0\ManzelOS_DTOs.dll
+C:\Users\dahmDev\Documents\my_docs\coding\projects\ManzelOS_Solution\ManzelOS_Core\ManzelOS_DTOs\obj\Debug\net8.0\refint\ManzelOS_DTOs.dll
+C:\Users\dahmDev\Documents\my_docs\coding\projects\ManzelOS_Solution\ManzelOS_Core\ManzelOS_DTOs\obj\Debug\net8.0\ManzelOS_DTOs.pdb
+C:\Users\dahmDev\Documents\my_docs\coding\projects\ManzelOS_Solution\ManzelOS_Core\ManzelOS_DTOs\obj\Debug\net8.0\ref\ManzelOS_DTOs.dll

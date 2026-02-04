@@ -1,6 +1,5 @@
 ﻿using ManzelOS_business_layer.Payments;
-using ManzelOS_data_access_layer.PaymentsData;
-using Microsoft.AspNetCore.Http;
+using ManzelOS_DTOs.Payments;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ManzelOS_Core.Controllers.PaymentAndBills.PaymentAndBills

@@ -1,6 +1,5 @@
 ﻿using ManzelOS_business_layer;
-using ManzelOS_data_access_layer.TenantsData;
-using Microsoft.AspNetCore.Http;
+using ManzelOS_DTOs.Tenants;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ManzelOS_Core.Controllers.Tenants

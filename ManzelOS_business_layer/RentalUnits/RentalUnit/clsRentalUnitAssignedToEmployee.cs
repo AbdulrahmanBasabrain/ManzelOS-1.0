@@ -1,5 +1,5 @@
-﻿using System;
-using ManzelOS_data_access_layer.RentalUnitsData;
+﻿using ManzelOS_data_access_layer.RentalUnitsData;
+using ManzelOS_DTOs.RentalUnits;
 
 namespace ManzelOS_business_layer.RentalUnits.RentalUnit
 {
@@ -50,6 +50,11 @@ namespace ManzelOS_business_layer.RentalUnits.RentalUnit
             {
                 return null;
             }
+        }
+        
+        public static List<AssignEmployeeToPropertyDTO>ListEmployeeAssignedToBuildingEmployees()
+        {
+            return clsRentalUnitAssignedToEmployeeDataAccess.ListEmployeeRentalUnitRelations();
         }
 
         private bool _AddNewAssignment()

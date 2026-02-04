@@ -1,7 +1,6 @@
-﻿using System;
-using System.Data;
-using System.Security.Cryptography;
+﻿using System.Security.Cryptography;
 using System.Text;
+using ManzelOS_DTOs.Employees;
 using ManzelOS_data_access_layer.EmployeesData;
 
 // i would like to use inhertance in this case but i will not use it now because we are very early 

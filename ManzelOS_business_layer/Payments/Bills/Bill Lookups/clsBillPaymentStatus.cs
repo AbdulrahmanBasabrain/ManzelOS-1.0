@@ -1,6 +1,4 @@
-﻿using System;
-using System.Data;
-using ManzelOS_data_access_layer.PaymentsData;
+﻿using ManzelOS_DTOs.Payments;
 
 namespace ManzelOS_business_layer.Payments
 {

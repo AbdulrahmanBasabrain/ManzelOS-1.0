@@ -1,6 +1,5 @@
-﻿using System;
-using System.Data;
-using ManzelOS_data_access_layer.PeopleData;
+﻿using ManzelOS_data_access_layer.PeopleData;
+using ManzelOS_DTOs.People;
 
 namespace ManzelOS_business_layer
 {

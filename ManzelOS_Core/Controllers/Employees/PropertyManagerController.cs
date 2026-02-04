@@ -1,6 +1,5 @@
 ﻿using ManzelOS_business_layer;
-using ManzelOS_data_access_layer.EmployeesData;
-using Microsoft.AspNetCore.Http;
+using ManzelOS_DTOs.Employees;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ManzelOS_Core.Controllers.Employees
