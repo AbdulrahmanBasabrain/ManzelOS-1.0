@@ -5,7 +5,7 @@ using ManzelOS_data_access_layer.PeopleData;
 
 namespace ManzelOS_business_layer
 {
-    public class clsPeople
+    public class clsPerson
     {
 
         public enum enMode { _addNewPerson = 1, _updatePerson = 2 };
@@ -69,7 +69,7 @@ namespace ManzelOS_business_layer
             } 
         }
 
-        public clsPeople()
+        public clsPerson()
         {
 
             PersonId = -1;
@@ -92,7 +92,7 @@ namespace ManzelOS_business_layer
             _Mode = enMode._addNewPerson;
         }
 
-        public clsPeople(PeopleDTO personDTO, enMode personMode = enMode._addNewPerson )
+        public clsPerson(PeopleDTO personDTO, enMode personMode = enMode._addNewPerson )
         {
 
             PersonId = personDTO.PersonId;
@@ -116,14 +116,14 @@ namespace ManzelOS_business_layer
 
         }
 
-        public static clsPeople FindPersonById(int personId)
+        public static clsPerson FindPersonById(int personId)
         {
 
             PeopleDTO person = clsPeopleDataAccess.GetPersonInfoById(personId);
 
             if (person != null)
             {
-                return new clsPeople(person, enMode._updatePerson);
+                return new clsPerson(person, enMode._updatePerson);
             }
 
             else

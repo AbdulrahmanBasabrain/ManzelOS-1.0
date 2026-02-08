@@ -20,7 +20,7 @@ namespace ManzelOS_Core.Controllers.PeopleControllers
         public ActionResult<IEnumerable<PeopleDTO>> ListAllPeople()
         {
 
-            List<PeopleDTO> peopleList = clsPeople.ListAllPeople();
+            List<PeopleDTO> peopleList = clsPerson.ListAllPeople();
             if(peopleList.Count == 0)
             {
                 return NotFound("No People Found");
@@ -44,7 +44,7 @@ namespace ManzelOS_Core.Controllers.PeopleControllers
             else
             {
 
-                clsPeople person = clsPeople.FindPersonById(personId);
+                clsPerson person = clsPerson.FindPersonById(personId);
 
                 if (person == null)
                 {
@@ -75,9 +75,9 @@ namespace ManzelOS_Core.Controllers.PeopleControllers
                     return BadRequest("Invalid Person Data");
                 }
             
-            clsPeople personToUpdate = clsPeople.FindPersonById(personId);
+            clsPerson personToUpdate = clsPerson.FindPersonById(personId);
 
-            personToUpdate = new clsPeople(updatedPerson);
+            personToUpdate = new clsPerson(updatedPerson);
 
             if(personToUpdate == null)
             {
@@ -128,7 +128,7 @@ namespace ManzelOS_Core.Controllers.PeopleControllers
                     return BadRequest("Invalid Person Data");
             }
             
-            clsPeople personToAdd = new clsPeople(newPerson);
+            clsPerson personToAdd = new clsPerson(newPerson);
 
             if(personToAdd.Save())
             {
@@ -156,7 +156,7 @@ namespace ManzelOS_Core.Controllers.PeopleControllers
                 return BadRequest($"Not Accepted ID {personId}");
             }
 
-            if(clsPeople.DeletePerson(personId))
+            if(clsPerson.DeletePerson(personId))
             {
                 return Ok($"Person With {personId} has been deleted Successfully");
             }

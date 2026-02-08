@@ -34,12 +34,9 @@ namespace ManzelOS_data_access_layer.EmployeesData
                     propertyManager = new PropertyManagerDTO
                         (
                             reader.GetInt32(reader.GetOrdinal("property_manager_id")),
-                            reader.GetInt32(reader.GetOrdinal("employee_id")),
                             reader.GetString(reader.GetOrdinal("user_name")),
                             reader.GetString(reader.GetOrdinal("password")),
-                            reader.GetBoolean(reader.GetOrdinal("is_active")),
-                            reader.GetInt32(reader.GetOrdinal("permession")),
-                            reader.GetDateTime(reader.GetOrdinal("assigned_at"))
+                            reader.GetDateTime(reader.GetOrdinal("created_at"))
 
                         );
                     reader.Close();
@@ -84,12 +81,9 @@ namespace ManzelOS_data_access_layer.EmployeesData
                     propertyManager = new PropertyManagerDTO
                         (
                             reader.GetInt32(reader.GetOrdinal("property_manager_id")),
-                            reader.GetInt32(reader.GetOrdinal("employee_id")),
                             reader.GetString(reader.GetOrdinal("user_name")),
                             reader.GetString(reader.GetOrdinal("password")),
-                            reader.GetBoolean(reader.GetOrdinal("is_active")),
-                            reader.GetInt32(reader.GetOrdinal("permession")),
-                            reader.GetDateTime(reader.GetOrdinal("assigned_at"))
+                            reader.GetDateTime(reader.GetOrdinal("created_at"))
 
                         );
                     reader.Close();
@@ -135,12 +129,9 @@ namespace ManzelOS_data_access_layer.EmployeesData
                         propertyManager = new PropertyManagerDTO
                             (
                                 reader.GetInt32(reader.GetOrdinal("property_manager_id")),
-                                reader.GetInt32(reader.GetOrdinal("employee_id")),
                                 reader.GetString(reader.GetOrdinal("user_name")),
                                 reader.GetString(reader.GetOrdinal("password")),
-                                reader.GetBoolean(reader.GetOrdinal("is_active")),
-                                reader.GetInt32(reader.GetOrdinal("permession")),
-                                reader.GetDateTime(reader.GetOrdinal("assigned_at"))
+                                reader.GetDateTime(reader.GetOrdinal("created_at"))
 
                             );
                         PropertyManagersList.Add (propertyManager);
@@ -165,30 +156,22 @@ namespace ManzelOS_data_access_layer.EmployeesData
 
 
 INSERT INTO [dbo].[property_managers]
-           ([employee_id]
            ,[user_name]
            ,[password]
-           ,[is_active]
-           ,[permession]
-           ,[assigned_at])
+           ,[created_at])
      VALUES
-           (@EmployeeId,
-            @UserName,
-            @Password,
-            @IsActive,
-            @Permession,
-            @AssignedAt) 
+           (
+            @userName,
+            @password,
+            @createdAt) 
             select SCOPE_IDENTITY();
 ";
             
             SqlCommand command = new SqlCommand(@query, connection);
 
-            command.Parameters.AddWithValue(@"EmployeeId", propertyManager.EmployeeId);
-            command.Parameters.AddWithValue(@"UserName", propertyManager.UserName);
-            command.Parameters.AddWithValue(@"Password", propertyManager.Password);
-            command.Parameters.AddWithValue(@"IsActive", propertyManager.IsActive);
-            command.Parameters.AddWithValue(@"Permession", propertyManager.Permession);
-            command.Parameters.AddWithValue(@"AssignedAt", propertyManager.AssignedAt);
+            command.Parameters.AddWithValue(@"userName", propertyManager.UserName);
+            command.Parameters.AddWithValue(@"password", propertyManager.Password);
+            command.Parameters.AddWithValue(@"created_at", propertyManager.CreatedAt);
 
             try
             {
@@ -213,12 +196,9 @@ INSERT INTO [dbo].[property_managers]
             SqlConnection connection = new SqlConnection(clsDataAccessSettings.ConnectionString);
             string query = @"
 UPDATE [dbo].[property_managers]
-   SET [employee_id] = @EmployeeId
-      ,[user_name] = @UserName
-      ,[password] = @Password
-      ,[is_active] = @IsActive 
-      ,[permession] = @Permession
-      ,[assigned_at] = @AssignedAt
+   SET [user_name] = @userName
+      ,[password] = @password
+      ,[created_at] = @createdAt
 where property_manager_id = @propertyManagerId
 ";
 
@@ -226,12 +206,9 @@ where property_manager_id = @propertyManagerId
             SqlCommand command = new SqlCommand(query, connection);
 
             command.Parameters.AddWithValue(@"propertyManagerId", propertyManagerId);
-            command.Parameters.AddWithValue(@"EmployeeId", propertyManager.EmployeeId);
-            command.Parameters.AddWithValue(@"UserName", propertyManager.UserName);
-            command.Parameters.AddWithValue(@"Password", propertyManager.Password);
-            command.Parameters.AddWithValue(@"IsActive", propertyManager.IsActive);
-            command.Parameters.AddWithValue(@"Permession", propertyManager.Permession);
-            command.Parameters.AddWithValue(@"AssignedAt", propertyManager.AssignedAt);
+            command.Parameters.AddWithValue(@"userName", propertyManager.UserName);
+            command.Parameters.AddWithValue(@"password", propertyManager.Password);
+            command.Parameters.AddWithValue(@"created_at", propertyManager.CreatedAt);
 
 
             try

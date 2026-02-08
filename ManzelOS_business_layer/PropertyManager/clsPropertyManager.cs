@@ -3,12 +3,11 @@ using System.Text;
 using ManzelOS_DTOs.Employees;
 using ManzelOS_data_access_layer.EmployeesData;
 
-// i would like to use inhertance in this case but i will not use it now because we are very early 
-// and don't need any of the employee class functionality yet and we will use it in the future when we need it 
+
 
 namespace ManzelOS_business_layer
 {
-    public class clsPropertyManager : clsEmployee
+    public class clsPropertyManager
     {
 
         public enum enMode { enAddNewPropertyManager = 1, enUpdateNewPropertyManager = 2 }
@@ -17,22 +16,17 @@ namespace ManzelOS_business_layer
         public int PropertyManagerId { get; set; }
         public string UserName { get; set; }
         public string Password { get; set; }
-        public bool IsActive { get; set; }
-        public int Permession { get; set; }
-        public DateTime AssignedAt { get; set; }
+        public DateTime CreatedAt{ get; set; }
         
-        PropertyManagerDTO propertyManagerDTO { get { return new PropertyManagerDTO(this.PropertyManagerId, this.EmployeeId, this.UserName, this.Password, this.IsActive, this.Permession, this.AssignedAt); } }
+        PropertyManagerDTO propertyManagerDTO { get { return new PropertyManagerDTO(this.PropertyManagerId, this.UserName, this.Password, this.CreatedAt); } }
 
         public clsPropertyManager()
         {
 
             PropertyManagerId = -1;
-            EmployeeId = -1;
             UserName = string.Empty;
             Password = string.Empty;
-            IsActive = false;
-            Permession = -1;
-            AssignedAt = DateTime.Now;
+            CreatedAt = DateTime.Now;
 
             _Mode = enMode.enAddNewPropertyManager;
 
@@ -42,12 +36,9 @@ namespace ManzelOS_business_layer
         {
 
             PropertyManagerId = propertyManagerDTO.PropertyManagerId;
-            EmployeeId = propertyManagerDTO.EmployeeId;
             UserName = propertyManagerDTO.UserName;
             Password = propertyManagerDTO.Password;
-            IsActive = propertyManagerDTO.IsActive;
-            Permession = propertyManagerDTO.Permession;
-            AssignedAt = propertyManagerDTO.AssignedAt;
+            CreatedAt = propertyManagerDTO.CreatedAt;
 
            
             _Mode = mode;

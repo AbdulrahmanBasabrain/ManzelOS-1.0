@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ManzelOS_Core")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+23c502a5d03f98b6d541ca51870d1fb5969f5081")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dec5600d84f3b827ca530e8f25d69b4eae76d577")]
 [assembly: System.Reflection.AssemblyProductAttribute("ManzelOS_Core")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ManzelOS_Core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

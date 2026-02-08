@@ -95,12 +95,9 @@ namespace ManzelOS_Core.Controllers.Employees
 
             clsPropertyManager propertyManagerToUpdate = clsPropertyManager.FindPropertyManagerById(propertyManagerId);
 
-            propertyManagerToUpdate.EmployeeId = propertyManagerDTO.EmployeeId;
             propertyManagerToUpdate.UserName = propertyManagerDTO.UserName;
             propertyManagerToUpdate.Password = propertyManagerDTO.Password;
-            propertyManagerToUpdate.IsActive = propertyManagerDTO.IsActive;
-            propertyManagerToUpdate.Permession = propertyManagerDTO.Permession;
-            propertyManagerToUpdate.AssignedAt = propertyManagerDTO.AssignedAt;
+            propertyManagerToUpdate.CreatedAt = propertyManagerDTO.CreatedAt;
 
             if (propertyManagerToUpdate.Save())
             {
