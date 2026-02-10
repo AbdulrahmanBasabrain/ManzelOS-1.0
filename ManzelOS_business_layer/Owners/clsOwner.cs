@@ -1,9 +1,10 @@
 ﻿using ManzelOS_data_access_layer.OwnersData;
 using ManzelOS_DTOs.Owners;
+using ManzelOS_business_layer.People;
 
 namespace ManzelOS_business_layer
 {
-    public class clsOwner
+    public class clsOwner : clsPeople
     {
 
         public enum enMode { enAddOwner = 1, enUpdateOwner = 2 }
@@ -12,17 +13,15 @@ namespace ManzelOS_business_layer
         public int OwnerId { get; set; }
         public int PersonId { get; set; }
         public bool IsBusiness { get; set; }
-        public int NumberOfAssets { get; set; }
         public DateTime CreatedAt { get; set; }
         
-        public OwnerDTO ownerDTO { get { return new(this.OwnerId, this.PersonId, this.IsBusiness, this.NumberOfAssets, this.CreatedAt); } }
+        public OwnerDTO ownerDTO { get { return new(this.OwnerId, this.PersonId, this.IsBusiness, this.CreatedAt); } }
 
         public clsOwner()
         {
             OwnerId = -1;
             PersonId = -1;
             IsBusiness = false;
-            NumberOfAssets = 0;
             CreatedAt = DateTime.Now;
 
             _Mode = enMode.enAddOwner;
@@ -34,7 +33,6 @@ namespace ManzelOS_business_layer
             OwnerId = ownerDTO.OwnerId;
             PersonId = ownerDTO.PersonId;
             IsBusiness = ownerDTO.IsBusiness;
-            NumberOfAssets = ownerDTO.NumberOfAssets;
             CreatedAt = ownerDTO.CreatedAt;
 
             _Mode = mode;
@@ -63,6 +61,8 @@ namespace ManzelOS_business_layer
 
         private bool _AddNewOwner()
         {
+
+            base.Save();
             this.OwnerId = clsOwnerDataAccess.AddNewOwner(this.ownerDTO);
 
             return (this.OwnerId != -1);
@@ -70,6 +70,7 @@ namespace ManzelOS_business_layer
 
         private bool _UpdateOwner()
         {
+            base.Save();
             return clsOwnerDataAccess.UpdateOwner(this.OwnerId, this.ownerDTO);
         }
 

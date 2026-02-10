@@ -870,204 +870,6 @@
     "EndpointName": "ListPaymentStatuses"
   },
   {
-    "ContainingType": "ManzelOS_Core.Controllers.PeopleControllers.PeopleController",
-    "Method": "FindePersonById",
-    "RelativePath": "api/PeopleController/{id}",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "personId",
-        "Type": "System.Int32",
-        "IsRequired": false
-      },
-      {
-        "Name": "id",
-        "Type": "",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "ManzelOS_DTOs.People.PeopleDTO",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      },
-      {
-        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 400
-      },
-      {
-        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 404
-      }
-    ],
-    "EndpointName": "FindePersonById"
-  },
-  {
-    "ContainingType": "ManzelOS_Core.Controllers.PeopleControllers.PeopleController",
-    "Method": "DeletePerson",
-    "RelativePath": "api/PeopleController/{personId}",
-    "HttpMethod": "DELETE",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "personId",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 200
-      },
-      {
-        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 400
-      },
-      {
-        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 404
-      }
-    ],
-    "EndpointName": "DeletePerson"
-  },
-  {
-    "ContainingType": "ManzelOS_Core.Controllers.PeopleControllers.PeopleController",
-    "Method": "AddNewPerson",
-    "RelativePath": "api/PeopleController/AddNewPerson",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "newPerson",
-        "Type": "ManzelOS_DTOs.People.PeopleDTO",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "ManzelOS_DTOs.People.PeopleDTO",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 201
-      },
-      {
-        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 400
-      }
-    ],
-    "EndpointName": "AddNewPerson"
-  },
-  {
-    "ContainingType": "ManzelOS_Core.Controllers.PeopleControllers.PeopleController",
-    "Method": "ListAllPeople",
-    "RelativePath": "api/PeopleController/ListPeople",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[ManzelOS_DTOs.People.PeopleDTO, ManzelOS_DTOs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      },
-      {
-        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 404
-      }
-    ],
-    "EndpointName": "ListPeople"
-  },
-  {
-    "ContainingType": "ManzelOS_Core.Controllers.PeopleControllers.PeopleController",
-    "Method": "UpdatePerson",
-    "RelativePath": "api/PeopleController/UpdatePerson",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "personId",
-        "Type": "System.Int32",
-        "IsRequired": false
-      },
-      {
-        "Name": "updatedPerson",
-        "Type": "ManzelOS_DTOs.People.PeopleDTO",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "ManzelOS_DTOs.People.PeopleDTO",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 201
-      },
-      {
-        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 400
-      }
-    ],
-    "EndpointName": "UpdateNewPerson"
-  },
-  {
     "ContainingType": "ManzelOS_Core.Controllers.Employees.PropertyManagerController",
     "Method": "DeletePropertyManager",
     "RelativePath": "api/PropertyManagerController/{propertyManagerId}",
@@ -1117,8 +919,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "propertyManagerDTO",
-        "Type": "ManzelOS_DTOs.Employees.PropertyManagerDTO",
+        "Name": "propertyManagerInfo",
+        "Type": "ManzelOS_DTOs.PropertyManagers.PropertyManagerPersonDTO",
         "IsRequired": true
       }
     ],
@@ -1169,7 +971,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "ManzelOS_DTOs.Employees.PropertyManagerDTO",
+        "Type": "ManzelOS_DTOs.PropertyManagers.PropertyManagerPersonDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -1243,7 +1045,7 @@
       },
       {
         "Name": "propertyManagerDTO",
-        "Type": "ManzelOS_DTOs.Employees.PropertyManagerDTO",
+        "Type": "ManzelOS_DTOs.PropertyManagers.PropertyManagerPersonDTO",
         "IsRequired": true
       }
     ],

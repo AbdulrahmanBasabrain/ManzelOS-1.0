@@ -41,7 +41,6 @@ namespace ManzelOS_data_access_layer.OwnersData
                             reader.GetInt32(reader.GetOrdinal("owner_id")),
                             reader.GetInt32(reader.GetOrdinal("person_id")),
                             reader.GetBoolean(reader.GetOrdinal("is_business")),
-                            reader.GetInt32(reader.GetOrdinal("number_of_assets")),
                             reader.GetDateTime(reader.GetOrdinal("created_at"))
 
 
@@ -92,7 +91,6 @@ namespace ManzelOS_data_access_layer.OwnersData
                             reader.GetInt32(reader.GetOrdinal("owner_id")),
                             reader.GetInt32(reader.GetOrdinal("person_id")),
                             reader.GetBoolean(reader.GetOrdinal("is_business")),
-                            reader.GetInt32(reader.GetOrdinal("number_of_assets")),
                             reader.GetDateTime(reader.GetOrdinal("created_at"))
 
                         );
@@ -119,12 +117,10 @@ namespace ManzelOS_data_access_layer.OwnersData
 INSERT INTO [dbo].[owners]
            ([person_id]
            ,[is_business]
-           ,[number_of_assets]
            ,[created_at])
      VALUES
            (@PersonId
            ,@IsBusiness
-           ,@NumberOfAssets
            ,@CreatedAt)
  select SCOPE_IDENTITY();
 
@@ -134,7 +130,6 @@ INSERT INTO [dbo].[owners]
 
             command.Parameters.AddWithValue(@"PersonId", owner.PersonId);
             command.Parameters.AddWithValue(@"IsBusiness", owner.IsBusiness);
-            command.Parameters.AddWithValue(@"NumberOfAssets", owner.NumberOfAssets);
             command.Parameters.AddWithValue(@"CreatedAt", owner.CreatedAt);
 
             try
@@ -163,7 +158,6 @@ INSERT INTO [dbo].[owners]
 UPDATE [dbo].[owners]
    SET [person_id] = @PersonId
       ,[is_business] = @IsBusiness
-      ,[number_of_assets] = @NumberOfAssets
       ,[created_at] = @CreatedAt
  WHERE owner_id = @ownerId
 ";
@@ -173,7 +167,6 @@ UPDATE [dbo].[owners]
             command.Parameters.AddWithValue(@"ownerId", ownerId);
             command.Parameters.AddWithValue(@"PersonId", owner.PersonId);
             command.Parameters.AddWithValue(@"IsBusiness", owner.IsBusiness);
-            command.Parameters.AddWithValue(@"NumberOfAssets", owner.NumberOfAssets);
             command.Parameters.AddWithValue(@"CreatedAt", owner.CreatedAt);
 
             try

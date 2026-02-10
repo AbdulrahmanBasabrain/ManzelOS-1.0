@@ -30,14 +30,14 @@ namespace ManzelOS_business_layer
 
         }
 
-        public static clsCity Find(int cityId)
+        public static CityDTO Find(int cityId)
         {
 
             CityDTO city = clsCityDataAccess.GetCityInfo(cityId);
 
             if (city != null)
             {
-                return new clsCity(city);
+                return city;
             }
             else { return null; }
         }

@@ -1,9 +1,10 @@
 ﻿using ManzelOS_DTOs.Tenants;
 using ManzelOS_data_access_layer.TenantsData;
+using ManzelOS_business_layer.People;
 
 namespace ManzelOS_business_layer
 {
-    public class clsTenant
+    public class clsTenant : clsPeople
     {
 
         public enum enMode { enAddNewTenant = 1, enUpdateTenant = 2 }
@@ -55,6 +56,7 @@ namespace ManzelOS_business_layer
 
         private bool _AddNewTenant()
         {
+            base.Save();
             this.TenantId = clsTenantDataAccess.AddNewTenant(TenantDTO);
 
             return (TenantId != -1);
@@ -62,6 +64,7 @@ namespace ManzelOS_business_layer
 
         private bool _UpdateTenant()
         {
+            base.Save();
             return clsTenantDataAccess.UpdateTenant(this.TenantId, TenantDTO);
         }
 

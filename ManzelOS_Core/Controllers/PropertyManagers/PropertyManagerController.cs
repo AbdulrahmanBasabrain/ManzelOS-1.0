@@ -1,5 +1,7 @@
 ﻿using ManzelOS_business_layer;
 using ManzelOS_DTOs.Employees;
+using ManzelOS_DTOs.People;
+using ManzelOS_DTOs.PropertyManagers;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ManzelOS_Core.Controllers.Employees
@@ -32,7 +34,7 @@ namespace ManzelOS_Core.Controllers.Employees
         [ProducesResponseType(StatusCodes.Status404NotFound)]        
         [ProducesResponseType(StatusCodes.Status400BadRequest)]        
 
-        public ActionResult<PropertyManagerDTO>FindPropertyManager(int propertyManagerId)
+        public ActionResult<PropertyManagerPersonDTO>FindPropertyManager(int propertyManagerId)
         {
             
             if(propertyManagerId < 0)
@@ -40,7 +42,7 @@ namespace ManzelOS_Core.Controllers.Employees
                 return BadRequest("Invalid Property Manager Id");
             }
 
-            clsPropertyManager propertyManagerToFind = clsPropertyManager.FindPropertyManagerById(propertyManagerId) ;
+            PropertyManagerPersonDTO propertyManagerToFind = clsPropertyManager.FindFullPropertyManagerById(propertyManagerId) ;
             if (propertyManagerToFind == null)
             {
                 return NotFound("Property Manager Not Found");
@@ -56,21 +58,20 @@ namespace ManzelOS_Core.Controllers.Employees
         [ProducesResponseType(StatusCodes.Status404NotFound)]        
         [ProducesResponseType(StatusCodes.Status400BadRequest)]        
    
-        public ActionResult<PropertyManagerDTO>AddNewPropertyManager(PropertyManagerDTO propertyManagerDTO)
+        public ActionResult<PropertyManagerDTO>AddNewPropertyManager(PropertyManagerPersonDTO propertyManagerInfo)
         {
 
-            if(propertyManagerDTO == null)
+            if(propertyManagerInfo == null)
             {
                 return BadRequest("Sorry Invalid Data");
             }
 
-            clsPropertyManager propertyManagerToAdd = new clsPropertyManager(propertyManagerDTO);
+            clsPropertyManager propertyManagerToAdd = new clsPropertyManager(propertyManagerInfo);
             
-            propertyManagerDTO.PropertyManagerId = propertyManagerToAdd.PropertyManagerId;
 
             if(propertyManagerToAdd.Save())
             {
-                return CreatedAtRoute("FindPropertyManager", propertyManagerDTO);
+                return CreatedAtRoute("FindPropertyManager", propertyManagerInfo);
             }
             else
             {
@@ -85,7 +86,7 @@ namespace ManzelOS_Core.Controllers.Employees
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
 
-        public ActionResult<PropertyManagerDTO> UpdatePropertyManager(int propertyManagerId, PropertyManagerDTO propertyManagerDTO)
+        public ActionResult<PropertyManagerDTO> UpdatePropertyManager(int propertyManagerId, PropertyManagerPersonDTO propertyManagerDTO)
         {
 
             if (propertyManagerDTO == null || propertyManagerId < 0) 
@@ -93,11 +94,8 @@ namespace ManzelOS_Core.Controllers.Employees
                 return BadRequest("Sorry Invalid Data");
             }
 
-            clsPropertyManager propertyManagerToUpdate = clsPropertyManager.FindPropertyManagerById(propertyManagerId);
+            clsPropertyManager propertyManagerToUpdate = new clsPropertyManager( clsPropertyManager.FindFullPropertyManagerById(propertyManagerId));
 
-            propertyManagerToUpdate.UserName = propertyManagerDTO.UserName;
-            propertyManagerToUpdate.Password = propertyManagerDTO.Password;
-            propertyManagerToUpdate.CreatedAt = propertyManagerDTO.CreatedAt;
 
             if (propertyManagerToUpdate.Save())
             {

@@ -3,12 +3,29 @@
   "WorkspaceRootPath": "C:\\Users\\dahmDev\\Documents\\my_docs\\coding\\projects\\ManzelOS_Solution\\ManzelOS_Core\\ManzelOS_Core\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{DA00567C-AC53-6D29-B46C-9F987C8EB5F2}|..\\ManzelOS_data_access_layer\\ManzelOS_data_access_layer.csproj|c:\\users\\dahmdev\\documents\\my_docs\\coding\\projects\\manzelos_solution\\manzelos_core\\manzelos_data_access_layer\\propertymanagers\\clspropertymanagerdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C2CBDC3-FC4A-1A4C-A1F5-A92C7C3A1A5A}|..\\ManzelOS_business_layer\\ManzelOS_business_layer.csproj|c:\\users\\dahmdev\\documents\\my_docs\\coding\\projects\\manzelos_solution\\manzelos_core\\manzelos_business_layer\\propertymanager\\clspropertymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8CAA8F5A-5560-6ED0-4352-DE580D26749F}|ManzelOS_Core.csproj|c:\\users\\dahmdev\\documents\\my_docs\\coding\\projects\\manzelos_solution\\manzelos_core\\manzelos_core\\controllers\\propertymanagers\\propertymanagercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8CAA8F5A-5560-6ED0-4352-DE580D26749F}|ManzelOS_Core.csproj|solutionrelative:controllers\\propertymanagers\\propertymanagercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8CAA8F5A-5560-6ED0-4352-DE580D26749F}|ManzelOS_Core.csproj|c:\\users\\dahmdev\\documents\\my_docs\\coding\\projects\\manzelos_solution\\manzelos_core\\manzelos_core\\controllers\\peoplecontrollers\\peoplecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8CAA8F5A-5560-6ED0-4352-DE580D26749F}|ManzelOS_Core.csproj|solutionrelative:controllers\\peoplecontrollers\\peoplecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DA00567C-AC53-6D29-B46C-9F987C8EB5F2}|..\\ManzelOS_data_access_layer\\ManzelOS_data_access_layer.csproj|c:\\users\\dahmdev\\documents\\my_docs\\coding\\projects\\manzelos_solution\\manzelos_core\\manzelos_data_access_layer\\people\\clspeopledataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C2CBDC3-FC4A-1A4C-A1F5-A92C7C3A1A5A}|..\\ManzelOS_business_layer\\ManzelOS_business_layer.csproj|c:\\users\\dahmdev\\documents\\my_docs\\coding\\projects\\manzelos_solution\\manzelos_core\\manzelos_business_layer\\people\\clspeople.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BCB7D2F-EA75-48BC-B04B-446C70005424}|..\\ManzelOS_DTOs\\ManzelOS_DTOs.csproj|c:\\users\\dahmdev\\documents\\my_docs\\coding\\projects\\manzelos_solution\\manzelos_core\\manzelos_dtos\\propertymanagers\\propertymanagerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BCB7D2F-EA75-48BC-B04B-446C70005424}|..\\ManzelOS_DTOs\\ManzelOS_DTOs.csproj|c:\\users\\dahmdev\\documents\\my_docs\\coding\\projects\\manzelos_solution\\manzelos_core\\manzelos_dtos\\propertymanagers\\propertymanagerpersondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BCB7D2F-EA75-48BC-B04B-446C70005424}|..\\ManzelOS_DTOs\\ManzelOS_DTOs.csproj|c:\\users\\dahmdev\\documents\\my_docs\\coding\\projects\\manzelos_solution\\manzelos_core\\manzelos_dtos\\people\\peopledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,28 +47,106 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PeopleController.cs",
-              "DocumentMoniker": "C:\\Users\\dahmDev\\Documents\\my_docs\\coding\\projects\\ManzelOS_Solution\\ManzelOS_Core\\ManzelOS_Core\\Controllers\\PeopleControllers\\PeopleController.cs",
-              "RelativeDocumentMoniker": "Controllers\\PeopleControllers\\PeopleController.cs",
-              "ToolTip": "C:\\Users\\dahmDev\\Documents\\my_docs\\coding\\projects\\ManzelOS_Solution\\ManzelOS_Core\\ManzelOS_Core\\Controllers\\PeopleControllers\\PeopleController.cs",
-              "RelativeToolTip": "Controllers\\PeopleControllers\\PeopleController.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "PropertyManagerDTO.cs",
+              "DocumentMoniker": "C:\\Users\\dahmDev\\Documents\\my_docs\\coding\\projects\\ManzelOS_Solution\\ManzelOS_Core\\ManzelOS_DTOs\\PropertyManagers\\PropertyManagerDTO.cs",
+              "RelativeDocumentMoniker": "..\\ManzelOS_DTOs\\PropertyManagers\\PropertyManagerDTO.cs",
+              "ToolTip": "C:\\Users\\dahmDev\\Documents\\my_docs\\coding\\projects\\ManzelOS_Solution\\ManzelOS_Core\\ManzelOS_DTOs\\PropertyManagers\\PropertyManagerDTO.cs",
+              "RelativeToolTip": "..\\ManzelOS_DTOs\\PropertyManagers\\PropertyManagerDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-08T13:34:03.305Z",
+              "WhenOpened": "2026-02-10T13:24:35.79Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "clsPropertyManagerDataAccess.cs",
+              "DocumentMoniker": "C:\\Users\\dahmDev\\Documents\\my_docs\\coding\\projects\\ManzelOS_Solution\\ManzelOS_Core\\ManzelOS_data_access_layer\\PropertyManagers\\clsPropertyManagerDataAccess.cs",
+              "RelativeDocumentMoniker": "..\\ManzelOS_data_access_layer\\PropertyManagers\\clsPropertyManagerDataAccess.cs",
+              "ToolTip": "C:\\Users\\dahmDev\\Documents\\my_docs\\coding\\projects\\ManzelOS_Solution\\ManzelOS_Core\\ManzelOS_data_access_layer\\PropertyManagers\\clsPropertyManagerDataAccess.cs",
+              "RelativeToolTip": "..\\ManzelOS_data_access_layer\\PropertyManagers\\clsPropertyManagerDataAccess.cs",
+              "ViewState": "AgIAAJ4AAAAAAAAAAAAAwLQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T13:00:09.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "clsPeople.cs",
+              "DocumentMoniker": "C:\\Users\\dahmDev\\Documents\\my_docs\\coding\\projects\\ManzelOS_Solution\\ManzelOS_Core\\ManzelOS_business_layer\\People\\clsPeople.cs",
+              "RelativeDocumentMoniker": "..\\ManzelOS_business_layer\\People\\clsPeople.cs",
+              "ToolTip": "C:\\Users\\dahmDev\\Documents\\my_docs\\coding\\projects\\ManzelOS_Solution\\ManzelOS_Core\\ManzelOS_business_layer\\People\\clsPeople.cs",
+              "RelativeToolTip": "..\\ManzelOS_business_layer\\People\\clsPeople.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAuwFQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T12:59:28.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PropertyManagerPersonDTO.cs",
+              "DocumentMoniker": "C:\\Users\\dahmDev\\Documents\\my_docs\\coding\\projects\\ManzelOS_Solution\\ManzelOS_Core\\ManzelOS_DTOs\\PropertyManagers\\PropertyManagerPersonDTO.cs",
+              "RelativeDocumentMoniker": "..\\ManzelOS_DTOs\\PropertyManagers\\PropertyManagerPersonDTO.cs",
+              "ToolTip": "C:\\Users\\dahmDev\\Documents\\my_docs\\coding\\projects\\ManzelOS_Solution\\ManzelOS_Core\\ManzelOS_DTOs\\PropertyManagers\\PropertyManagerPersonDTO.cs",
+              "RelativeToolTip": "..\\ManzelOS_DTOs\\PropertyManagers\\PropertyManagerPersonDTO.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAowCQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T12:58:38.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PeopleDTO.cs",
+              "DocumentMoniker": "C:\\Users\\dahmDev\\Documents\\my_docs\\coding\\projects\\ManzelOS_Solution\\ManzelOS_Core\\ManzelOS_DTOs\\People\\PeopleDTO.cs",
+              "RelativeDocumentMoniker": "..\\ManzelOS_DTOs\\People\\PeopleDTO.cs",
+              "ToolTip": "C:\\Users\\dahmDev\\Documents\\my_docs\\coding\\projects\\ManzelOS_Solution\\ManzelOS_Core\\ManzelOS_DTOs\\People\\PeopleDTO.cs",
+              "RelativeToolTip": "..\\ManzelOS_DTOs\\People\\PeopleDTO.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAwwDAAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T12:53:28.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "clsPeopleDataAccess.cs",
+              "DocumentMoniker": "C:\\Users\\dahmDev\\Documents\\my_docs\\coding\\projects\\ManzelOS_Solution\\ManzelOS_Core\\ManzelOS_data_access_layer\\People\\clsPeopleDataAccess.cs",
+              "RelativeDocumentMoniker": "..\\ManzelOS_data_access_layer\\People\\clsPeopleDataAccess.cs",
+              "ToolTip": "C:\\Users\\dahmDev\\Documents\\my_docs\\coding\\projects\\ManzelOS_Solution\\ManzelOS_Core\\ManzelOS_data_access_layer\\People\\clsPeopleDataAccess.cs",
+              "RelativeToolTip": "..\\ManzelOS_data_access_layer\\People\\clsPeopleDataAccess.cs",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAYwJAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T12:44:20.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "clsPropertyManager.cs",
+              "DocumentMoniker": "C:\\Users\\dahmDev\\Documents\\my_docs\\coding\\projects\\ManzelOS_Solution\\ManzelOS_Core\\ManzelOS_business_layer\\PropertyManager\\clsPropertyManager.cs",
+              "RelativeDocumentMoniker": "..\\ManzelOS_business_layer\\PropertyManager\\clsPropertyManager.cs",
+              "ToolTip": "C:\\Users\\dahmDev\\Documents\\my_docs\\coding\\projects\\ManzelOS_Solution\\ManzelOS_Core\\ManzelOS_business_layer\\PropertyManager\\clsPropertyManager.cs",
+              "RelativeToolTip": "..\\ManzelOS_business_layer\\PropertyManager\\clsPropertyManager.cs",
+              "ViewState": "AgIAAJgAAAAAAAAAAAA4wKIAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T12:31:16.768Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "PropertyManagerController.cs",
               "DocumentMoniker": "C:\\Users\\dahmDev\\Documents\\my_docs\\coding\\projects\\ManzelOS_Solution\\ManzelOS_Core\\ManzelOS_Core\\Controllers\\PropertyManagers\\PropertyManagerController.cs",
               "RelativeDocumentMoniker": "Controllers\\PropertyManagers\\PropertyManagerController.cs",
               "ToolTip": "C:\\Users\\dahmDev\\Documents\\my_docs\\coding\\projects\\ManzelOS_Solution\\ManzelOS_Core\\ManzelOS_Core\\Controllers\\PropertyManagers\\PropertyManagerController.cs",
               "RelativeToolTip": "Controllers\\PropertyManagers\\PropertyManagerController.cs",
-              "ViewState": "AgIAAFMAAAAAAAAAAAAwwIUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACIAAAAAAAAAAAAgwEcAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-08T13:33:47.305Z",
+              "WhenOpened": "2026-02-10T12:28:15.917Z",
               "EditorCaption": ""
             }
           ]

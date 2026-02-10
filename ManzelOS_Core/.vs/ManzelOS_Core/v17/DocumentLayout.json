@@ -1,16 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\dahmDev\\Documents\\my_docs\\coding\\projects\\ManzelOS_Solution\\ManzelOS_Core\\ManzelOS_Core\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{8CAA8F5A-5560-6ED0-4352-DE580D26749F}|ManzelOS_Core.csproj|c:\\users\\dahmdev\\documents\\my_docs\\coding\\projects\\manzelos_solution\\manzelos_core\\manzelos_core\\controllers\\propertymanagers\\propertymanagercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8CAA8F5A-5560-6ED0-4352-DE580D26749F}|ManzelOS_Core.csproj|solutionrelative:controllers\\propertymanagers\\propertymanagercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8CAA8F5A-5560-6ED0-4352-DE580D26749F}|ManzelOS_Core.csproj|c:\\users\\dahmdev\\documents\\my_docs\\coding\\projects\\manzelos_solution\\manzelos_core\\manzelos_core\\controllers\\peoplecontrollers\\peoplecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8CAA8F5A-5560-6ED0-4352-DE580D26749F}|ManzelOS_Core.csproj|solutionrelative:controllers\\peoplecontrollers\\peoplecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -18,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -27,32 +18,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PeopleController.cs",
-              "DocumentMoniker": "C:\\Users\\dahmDev\\Documents\\my_docs\\coding\\projects\\ManzelOS_Solution\\ManzelOS_Core\\ManzelOS_Core\\Controllers\\PeopleControllers\\PeopleController.cs",
-              "RelativeDocumentMoniker": "Controllers\\PeopleControllers\\PeopleController.cs",
-              "ToolTip": "C:\\Users\\dahmDev\\Documents\\my_docs\\coding\\projects\\ManzelOS_Solution\\ManzelOS_Core\\ManzelOS_Core\\Controllers\\PeopleControllers\\PeopleController.cs",
-              "RelativeToolTip": "Controllers\\PeopleControllers\\PeopleController.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-08T13:34:03.305Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PropertyManagerController.cs",
-              "DocumentMoniker": "C:\\Users\\dahmDev\\Documents\\my_docs\\coding\\projects\\ManzelOS_Solution\\ManzelOS_Core\\ManzelOS_Core\\Controllers\\PropertyManagers\\PropertyManagerController.cs",
-              "RelativeDocumentMoniker": "Controllers\\PropertyManagers\\PropertyManagerController.cs",
-              "ToolTip": "C:\\Users\\dahmDev\\Documents\\my_docs\\coding\\projects\\ManzelOS_Solution\\ManzelOS_Core\\ManzelOS_Core\\Controllers\\PropertyManagers\\PropertyManagerController.cs",
-              "RelativeToolTip": "Controllers\\PropertyManagers\\PropertyManagerController.cs",
-              "ViewState": "AgIAAFMAAAAAAAAAAAAwwIgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-08T13:33:47.305Z",
-              "EditorCaption": ""
             }
           ]
         }

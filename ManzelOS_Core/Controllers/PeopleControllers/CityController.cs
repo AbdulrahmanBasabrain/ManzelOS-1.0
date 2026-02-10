@@ -26,7 +26,7 @@ namespace ManzelOS_Core.Controllers.PeopleControllers
             else
             {
 
-                clsCity city = clsCity.Find(cityId);
+                CityDTO city = clsCity.Find(cityId);
 
                 if (city == null)
                 {
@@ -36,8 +36,7 @@ namespace ManzelOS_Core.Controllers.PeopleControllers
                 {
 
 
-                    CityDTO cityDTO = city.CityDTO;
-                    return Ok(cityDTO);
+                    return Ok(city);
 
                 }
             }

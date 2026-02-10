@@ -1626,365 +1626,6 @@
         }
       }
     },
-    "/api/PeopleController/ListPeople": {
-      "get": {
-        "tags": [
-          "People"
-        ],
-        "operationId": "ListPeople",
-        "responses": {
-          "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/PeopleDTO"
-                  }
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/PeopleDTO"
-                  }
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/PeopleDTO"
-                  }
-                }
-              }
-            }
-          },
-          "404": {
-            "description": "Not Found",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/ProblemDetails"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/ProblemDetails"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/ProblemDetails"
-                }
-              }
-            }
-          }
-        }
-      }
-    },
-    "/api/PeopleController/{id}": {
-      "get": {
-        "tags": [
-          "People"
-        ],
-        "operationId": "FindePersonById",
-        "parameters": [
-          {
-            "name": "personId",
-            "in": "query",
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          },
-          {
-            "name": "id",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "string"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/PeopleDTO"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/PeopleDTO"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/PeopleDTO"
-                }
-              }
-            }
-          },
-          "400": {
-            "description": "Bad Request",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/ProblemDetails"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/ProblemDetails"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/ProblemDetails"
-                }
-              }
-            }
-          },
-          "404": {
-            "description": "Not Found",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/ProblemDetails"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/ProblemDetails"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/ProblemDetails"
-                }
-              }
-            }
-          }
-        }
-      }
-    },
-    "/api/PeopleController/UpdatePerson": {
-      "put": {
-        "tags": [
-          "People"
-        ],
-        "operationId": "UpdateNewPerson",
-        "parameters": [
-          {
-            "name": "personId",
-            "in": "query",
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          }
-        ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/PeopleDTO"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/PeopleDTO"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/PeopleDTO"
-              }
-            }
-          }
-        },
-        "responses": {
-          "201": {
-            "description": "Created",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/PeopleDTO"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/PeopleDTO"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/PeopleDTO"
-                }
-              }
-            }
-          },
-          "400": {
-            "description": "Bad Request",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/ProblemDetails"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/ProblemDetails"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/ProblemDetails"
-                }
-              }
-            }
-          }
-        }
-      }
-    },
-    "/api/PeopleController/AddNewPerson": {
-      "post": {
-        "tags": [
-          "People"
-        ],
-        "operationId": "AddNewPerson",
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/PeopleDTO"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/PeopleDTO"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/PeopleDTO"
-              }
-            }
-          }
-        },
-        "responses": {
-          "201": {
-            "description": "Created",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/PeopleDTO"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/PeopleDTO"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/PeopleDTO"
-                }
-              }
-            }
-          },
-          "400": {
-            "description": "Bad Request",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/ProblemDetails"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/ProblemDetails"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/ProblemDetails"
-                }
-              }
-            }
-          }
-        }
-      }
-    },
-    "/api/PeopleController/{personId}": {
-      "delete": {
-        "tags": [
-          "People"
-        ],
-        "operationId": "DeletePerson",
-        "parameters": [
-          {
-            "name": "personId",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          },
-          "400": {
-            "description": "Bad Request",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/ProblemDetails"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/ProblemDetails"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/ProblemDetails"
-                }
-              }
-            }
-          },
-          "404": {
-            "description": "Not Found",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/ProblemDetails"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/ProblemDetails"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/ProblemDetails"
-                }
-              }
-            }
-          }
-        }
-      }
-    },
     "/api/PropertyManagerController/ListAllPropertyManagers": {
       "get": {
         "tags": [
@@ -2066,17 +1707,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/PropertyManagerDTO"
+                  "$ref": "#/components/schemas/PropertyManagerPersonDTO"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/PropertyManagerDTO"
+                  "$ref": "#/components/schemas/PropertyManagerPersonDTO"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/PropertyManagerDTO"
+                  "$ref": "#/components/schemas/PropertyManagerPersonDTO"
                 }
               }
             }
@@ -2134,17 +1775,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/PropertyManagerDTO"
+                "$ref": "#/components/schemas/PropertyManagerPersonDTO"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/PropertyManagerDTO"
+                "$ref": "#/components/schemas/PropertyManagerPersonDTO"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/PropertyManagerDTO"
+                "$ref": "#/components/schemas/PropertyManagerPersonDTO"
               }
             }
           }
@@ -2233,17 +1874,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/PropertyManagerDTO"
+                "$ref": "#/components/schemas/PropertyManagerPersonDTO"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/PropertyManagerDTO"
+                "$ref": "#/components/schemas/PropertyManagerPersonDTO"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/PropertyManagerDTO"
+                "$ref": "#/components/schemas/PropertyManagerPersonDTO"
               }
             }
           }
@@ -3565,10 +3206,6 @@
           "isBusiness": {
             "type": "boolean"
           },
-          "numberOfAssets": {
-            "type": "integer",
-            "format": "int32"
-          },
           "createdAt": {
             "type": "string",
             "format": "date-time"
@@ -3657,21 +3294,13 @@
             "type": "string",
             "nullable": true
           },
-          "fatherName": {
-            "type": "string",
-            "nullable": true
-          },
-          "grandFatherName": {
-            "type": "string",
-            "nullable": true
-          },
           "lastName": {
             "type": "string",
             "nullable": true
           },
-          "nationalID": {
-            "type": "integer",
-            "format": "int32"
+          "nationalId": {
+            "type": "string",
+            "nullable": true
           },
           "dateOfBirth": {
             "type": "string",
@@ -3680,15 +3309,19 @@
           "gender": {
             "type": "boolean"
           },
-          "countryId": {
+          "country": {
             "type": "integer",
             "format": "int32"
           },
-          "cityId": {
+          "city": {
             "type": "integer",
             "format": "int32"
           },
           "addressDistrict": {
+            "type": "string",
+            "nullable": true
+          },
+          "street": {
             "type": "string",
             "nullable": true
           },
@@ -3708,7 +3341,7 @@
             "type": "integer",
             "format": "int32"
           },
-          "createdAt": {
+          "personCreatedAt": {
             "type": "string",
             "format": "date-time"
           }
@@ -3749,6 +3382,10 @@
             "type": "integer",
             "format": "int32"
           },
+          "personID": {
+            "type": "integer",
+            "format": "int32"
+          },
           "userName": {
             "type": "string",
             "nullable": true
@@ -3757,9 +3394,78 @@
             "type": "string",
             "nullable": true
           },
-          "createdAt": {
+          "propertyManagerCreatedAt": {
             "type": "string",
             "format": "date-time"
+          }
+        },
+        "additionalProperties": false
+      },
+      "PropertyManagerPersonDTO": {
+        "type": "object",
+        "properties": {
+          "firstName": {
+            "type": "string",
+            "nullable": true
+          },
+          "lastName": {
+            "type": "string",
+            "nullable": true
+          },
+          "nationalId": {
+            "type": "string",
+            "nullable": true
+          },
+          "dateOfBirth": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "gender": {
+            "type": "boolean"
+          },
+          "country": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "city": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "addressDistrict": {
+            "type": "string",
+            "nullable": true
+          },
+          "street": {
+            "type": "string",
+            "nullable": true
+          },
+          "personalEmail": {
+            "type": "string",
+            "nullable": true
+          },
+          "phone": {
+            "type": "string",
+            "nullable": true
+          },
+          "personalImagePath": {
+            "type": "string",
+            "nullable": true
+          },
+          "marriageStatusId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "personCreatedAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "userName": {
+            "type": "string",
+            "nullable": true
+          },
+          "password": {
+            "type": "string",
+            "nullable": true
           }
         },
         "additionalProperties": false

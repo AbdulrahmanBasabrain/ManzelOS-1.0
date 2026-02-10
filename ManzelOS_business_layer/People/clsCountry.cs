@@ -29,13 +29,13 @@ namespace ManzelOS_business_layer
 
         }
 
-        public static clsCountry Find(short countryId)
+        public static CountryDTO Find(short countryId)
         {
 
             CountryDTO country = clsCountryDataAccess.GetCountryInfo(countryId);
             if(country != null)
             {
-                return new clsCountry(country);
+                return country;
             }
             else
             {

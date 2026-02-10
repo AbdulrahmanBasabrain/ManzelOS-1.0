@@ -28,7 +28,7 @@ namespace ManzelOS_Core.Controllers.PeopleControllers
             else
             {
 
-                clsCountry country = clsCountry.Find(countryId);
+                CountryDTO country = clsCountry.Find(countryId);
 
                 if (country == null)
                 {
@@ -37,9 +37,8 @@ namespace ManzelOS_Core.Controllers.PeopleControllers
                 else
                 {
 
-                   CountryDTO countryDTO = country.CountryDTO;
 
-                    return Ok(countryDTO);
+                    return Ok(country);
 
                 }
             }

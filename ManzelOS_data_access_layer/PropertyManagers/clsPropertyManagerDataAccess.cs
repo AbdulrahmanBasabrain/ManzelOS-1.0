@@ -1,7 +1,10 @@
 ﻿using System;
 using System.Data;
 using System.Data.SqlClient;
+using ManzelOS_data_access_layer.PeopleData;
 using ManzelOS_DTOs.Employees;
+using ManzelOS_DTOs.People;
+using ManzelOS_DTOs.PropertyManagers;
 using Microsoft.Data.SqlClient;
 
 namespace ManzelOS_data_access_layer.EmployeesData
@@ -11,7 +14,7 @@ namespace ManzelOS_data_access_layer.EmployeesData
     {
 
 
-        public static PropertyManagerDTO GetPropertyManagerInfoById(int propertyManagerId)
+        public static PropertyManagerPersonDTO GetFullPropertyManagerInfoById(int propertyManagerId)
         {
 
 
@@ -21,7 +24,7 @@ namespace ManzelOS_data_access_layer.EmployeesData
             SqlCommand command = new SqlCommand (query, connection);
 
             command.Parameters.AddWithValue(@"propertyManagerId", @propertyManagerId);
-            PropertyManagerDTO propertyManager = null;
+            PropertyManagerPersonDTO fullPropertyManager = null;
 
             try
             {
@@ -31,32 +34,46 @@ namespace ManzelOS_data_access_layer.EmployeesData
 
                 if (reader.Read())
                 {
-                    propertyManager = new PropertyManagerDTO
+                    PeopleDTO peopleDTO = clsPeopleDataAccess.GetPersonInfoById(propertyManagerId);
+                    fullPropertyManager  = new PropertyManagerPersonDTO
                         (
-                            reader.GetInt32(reader.GetOrdinal("property_manager_id")),
+                            
+                            reader.GetString(reader.GetOrdinal("first_name")),
+                            reader.GetString(reader.GetOrdinal("last_name")),
+                            reader.GetString(reader.GetOrdinal("national_id")),
+                            reader.GetDateTime(reader.GetOrdinal("date_of_birth")),
+                            reader.GetBoolean(reader.GetOrdinal("gender")),
+                            reader.GetInt16(reader.GetOrdinal("country_id")),
+                            reader.GetInt32(reader.GetOrdinal("city_id")),
+                            reader.GetString(reader.GetOrdinal("district")),
+                            reader.GetString(reader.GetOrdinal("street")),
+                            reader.GetString(reader.GetOrdinal("personal_email")),
+                            reader.GetString(reader.GetOrdinal("phone")),
+                            reader.GetString(reader.GetOrdinal("personal_image_path")),
+                            reader.GetInt16(reader.GetOrdinal("marriage_status_id")),
+
                             reader.GetString(reader.GetOrdinal("user_name")),
-                            reader.GetString(reader.GetOrdinal("password")),
-                            reader.GetDateTime(reader.GetOrdinal("created_at"))
+                            reader.GetString(reader.GetOrdinal("password"))
 
                         );
                     reader.Close();
-                    return propertyManager;
+                    return fullPropertyManager;
                 }
                 else
                 {
                     reader.Close();
-                    return propertyManager;
+                    return fullPropertyManager;
                 }
 
             }
             catch (Exception ex) { }
             finally { connection.Close(); }
-            return propertyManager;
+            return fullPropertyManager;
 
 
         }
 
-        public static PropertyManagerDTO GetPropertyManagerInfoByUserName(string userName)
+        public static PropertyManagerDTO GetPrivatePropertyManagerInfoByUserName(string userName)
           
         {
 
@@ -81,9 +98,9 @@ namespace ManzelOS_data_access_layer.EmployeesData
                     propertyManager = new PropertyManagerDTO
                         (
                             reader.GetInt32(reader.GetOrdinal("property_manager_id")),
+                            reader.GetInt32(reader.GetOrdinal("person_id")),
                             reader.GetString(reader.GetOrdinal("user_name")),
-                            reader.GetString(reader.GetOrdinal("password")),
-                            reader.GetDateTime(reader.GetOrdinal("created_at"))
+                            reader.GetString(reader.GetOrdinal("password"))
 
                         );
                     reader.Close();
@@ -129,9 +146,9 @@ namespace ManzelOS_data_access_layer.EmployeesData
                         propertyManager = new PropertyManagerDTO
                             (
                                 reader.GetInt32(reader.GetOrdinal("property_manager_id")),
+                                reader.GetInt32(reader.GetOrdinal("person_id")),
                                 reader.GetString(reader.GetOrdinal("user_name")),
-                                reader.GetString(reader.GetOrdinal("password")),
-                                reader.GetDateTime(reader.GetOrdinal("created_at"))
+                                reader.GetString(reader.GetOrdinal("password"))
 
                             );
                         PropertyManagersList.Add (propertyManager);
@@ -156,11 +173,12 @@ namespace ManzelOS_data_access_layer.EmployeesData
 
 
 INSERT INTO [dbo].[property_managers]
-           ,[user_name]
+           ([person_id]
+            ,[username]
            ,[password]
            ,[created_at])
      VALUES
-           (
+           (@personId,
             @userName,
             @password,
             @createdAt) 
@@ -169,9 +187,10 @@ INSERT INTO [dbo].[property_managers]
             
             SqlCommand command = new SqlCommand(@query, connection);
 
+            command.Parameters.AddWithValue(@"personId", propertyManager.PersonID);
             command.Parameters.AddWithValue(@"userName", propertyManager.UserName);
             command.Parameters.AddWithValue(@"password", propertyManager.Password);
-            command.Parameters.AddWithValue(@"created_at", propertyManager.CreatedAt);
+            command.Parameters.AddWithValue(@"createdAt", propertyManager.PropertyManagerCreatedAt);
 
             try
             {
@@ -208,7 +227,7 @@ where property_manager_id = @propertyManagerId
             command.Parameters.AddWithValue(@"propertyManagerId", propertyManagerId);
             command.Parameters.AddWithValue(@"userName", propertyManager.UserName);
             command.Parameters.AddWithValue(@"password", propertyManager.Password);
-            command.Parameters.AddWithValue(@"created_at", propertyManager.CreatedAt);
+            command.Parameters.AddWithValue(@"created_at", propertyManager.PropertyManagerCreatedAt);
 
 
             try

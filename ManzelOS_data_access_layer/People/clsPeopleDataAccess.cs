@@ -33,19 +33,17 @@ namespace ManzelOS_data_access_layer.PeopleData
                             reader.GetInt32(reader.GetOrdinal("person_id")),
                             reader.GetString(reader.GetOrdinal("first_name")),
                             reader.GetString(reader.GetOrdinal("father_name")),
-                            reader.GetString(reader.GetOrdinal("grandfather_name")),
-                            reader.GetString(reader.GetOrdinal("last_name")),
-                            reader.GetInt32(reader.GetOrdinal("national_id")),
+                            reader.GetString(reader.GetOrdinal("national_id")),
                             reader.GetDateTime(reader.GetOrdinal("date_of_birth")),
                             reader.GetBoolean(reader.GetOrdinal("gender")),
                             reader.GetInt16(reader.GetOrdinal("country_id")),
                             reader.GetInt32(reader.GetOrdinal("city_id")),
                             reader.GetString(reader.GetOrdinal("address_district")),
+                            reader.GetString(reader.GetOrdinal("street")),
                             reader.GetString(reader.GetOrdinal("personal_email")),
                             reader.GetString(reader.GetOrdinal("phone")),
                             reader.IsDBNull(reader.GetOrdinal("personal_image_path")) ? null : reader.GetString(reader.GetOrdinal("personal_image_path")),
-                            reader.GetInt16(reader.GetOrdinal("marriage_status_id")),
-                            reader.GetDateTime(reader.GetOrdinal("created_at"))
+                            reader.GetInt16(reader.GetOrdinal("marriage_status_id"))
 
                         );
 
@@ -84,18 +82,16 @@ namespace ManzelOS_data_access_layer.PeopleData
 
             SqlConnection connection = new SqlConnection(clsDataAccessSettings.ConnectionString);
 
-            string query = @"INSERT INTO people (
-                            
-           [first_name]
-           ,[father_name]
-           ,[grandfather_name]
+            string query = @"INSERT INTO [dbo].[people]
+           ([first_name]
            ,[last_name]
            ,[national_id]
            ,[date_of_birth]
            ,[gender]
            ,[country_id]
            ,[city_id]
-           ,[address_district]
+           ,[district]
+           ,[street]
            ,[personal_email]
            ,[phone]
            ,[personal_image_path]
@@ -104,25 +100,24 @@ namespace ManzelOS_data_access_layer.PeopleData
 
 values
 
-(@firstName, @fatherName, @grandFatherName, @lastName, @nationalId, @dateOfBirth, @gender, @countryId, @cityId, @addressDistrict, @personalEmail, @phone, @personalImagePath, @marriageStatusId, @createdAt)
+(@firstName, @lastName, @nationalId, @dateOfBirth, @gender, @countryId, @cityId, @addressDistrict, @street, @personalEmail, @phone, @personalImagePath, @marriageStatusId, @createdAt)
                 select SCOPE_IDENTITY();";
 
             SqlCommand command = new SqlCommand(query, connection);
 
             command.Parameters.AddWithValue(@"firstName", newPerson.FirstName);
-            command.Parameters.AddWithValue(@"fatherName", newPerson.FatherName);
-            command.Parameters.AddWithValue(@"grandFatherName", newPerson.GrandFatherName);
             command.Parameters.AddWithValue(@"lastName", newPerson.LastName);
-            command.Parameters.AddWithValue(@"nationalID", newPerson.NationalID);
+            command.Parameters.AddWithValue(@"nationalID", newPerson.NationalId);
             command.Parameters.AddWithValue(@"dateOfBirth", newPerson.DateOfBirth);
             command.Parameters.AddWithValue(@"gender", newPerson.Gender);
-            command.Parameters.AddWithValue(@"countryId", newPerson.CountryId);
-            command.Parameters.AddWithValue(@"cityId", newPerson.CityId);
+            command.Parameters.AddWithValue(@"countryId", newPerson.Country);
+            command.Parameters.AddWithValue(@"cityId", newPerson.City);
             command.Parameters.AddWithValue(@"addressDistrict", newPerson.AddressDistrict);
+            command.Parameters.AddWithValue(@"street", newPerson.Street);
             command.Parameters.AddWithValue(@"personalEmail", newPerson.PersonalEmail);
             command.Parameters.AddWithValue(@"phone", newPerson.Phone);
             command.Parameters.AddWithValue(@"marriageStatusId", newPerson.MarriageStatusId);
-            command.Parameters.AddWithValue(@"createdAt", newPerson.CreatedAt);
+            command.Parameters.AddWithValue(@"createdAt", newPerson.PersonCreatedAt);
 
             if (newPerson.PersonalImagePath != "")
             {
@@ -161,8 +156,6 @@ values
 
             string query = @"UPDATE [dbo].[people]
    SET [first_name] = @firstName
-      ,[father_name] = @fatherName
-      ,[grandfather_name] = @grandFatherName
       ,[last_name] = @lastName
       ,[national_id] = @nationalId
       ,[date_of_birth] = @dateOfBirth
@@ -170,6 +163,7 @@ values
       ,[country_id] = @countryId
       ,[city_id] = @cityId
       ,[address_district] = @addressDistrict
+      ,[street]
       ,[personal_email] = @personalEmail
       ,[phone] = @phone
       ,[personal_image_path] = @personalImagePath
@@ -181,19 +175,18 @@ values
 
             command.Parameters.AddWithValue(@"personId", personToUpdate.PersonId);
             command.Parameters.AddWithValue(@"firstName", personToUpdate.FirstName);
-            command.Parameters.AddWithValue(@"fatherName", personToUpdate.FatherName);
-            command.Parameters.AddWithValue(@"grandFatherName", personToUpdate.GrandFatherName);
             command.Parameters.AddWithValue(@"lastName", personToUpdate.LastName);
-            command.Parameters.AddWithValue(@"nationalID", personToUpdate.NationalID);
+            command.Parameters.AddWithValue(@"nationalID", personToUpdate.NationalId);
             command.Parameters.AddWithValue(@"dateOfBirth", personToUpdate.DateOfBirth);
             command.Parameters.AddWithValue(@"gender", personToUpdate.Gender);
-            command.Parameters.AddWithValue(@"countryId", personToUpdate.CountryId);
-            command.Parameters.AddWithValue(@"cityId", personToUpdate.CityId);
+            command.Parameters.AddWithValue(@"countryId", personToUpdate.Country);
+            command.Parameters.AddWithValue(@"cityId", personToUpdate.City);
             command.Parameters.AddWithValue(@"addressDistrict", personToUpdate.AddressDistrict);
+            command.Parameters.AddWithValue(@"street", personToUpdate.Street);
             command.Parameters.AddWithValue(@"email", personToUpdate.PersonalEmail);
             command.Parameters.AddWithValue(@"phone", personToUpdate.Phone);
             command.Parameters.AddWithValue(@"marriageStatusId", personToUpdate.MarriageStatusId);
-            command.Parameters.AddWithValue(@"createdAt", personToUpdate.CreatedAt);
+            command.Parameters.AddWithValue(@"createdAt", personToUpdate.PersonCreatedAt);
 
             if (personToUpdate.PersonalImagePath != "")
             {
@@ -244,21 +237,19 @@ values
 
                             reader.GetInt32(reader.GetOrdinal("person_id")),
                             reader.GetString(reader.GetOrdinal("first_name")),
-                            reader.GetString(reader.GetOrdinal("father_name")),
-                            reader.GetString(reader.GetOrdinal("grandfather_name")),
                             reader.GetString(reader.GetOrdinal("last_name")),
-                            reader.GetInt32(reader.GetOrdinal("national_id")),
+                            reader.GetString(reader.GetOrdinal("national_id")),
                             reader.GetDateTime(reader.GetOrdinal("date_of_birth")),
                             reader.GetBoolean(reader.GetOrdinal("gender")),
                             reader.GetInt16(reader.GetOrdinal("country_id")),
                             reader.GetInt32(reader.GetOrdinal("city_id")),
                             reader.GetString(reader.GetOrdinal("address_district")),
+                            reader.GetString(reader.GetOrdinal("street")),
                             reader.GetString(reader.GetOrdinal("email")),
                             reader.GetString(reader.GetOrdinal("phone")),
                             reader.IsDBNull(reader.GetOrdinal("personal_image_path")) ? null : reader.GetString(reader.GetOrdinal("personal_image_path")),
 
-                            reader.GetInt16(reader.GetOrdinal("marriage_status_id")),
-                            reader.GetDateTime(reader.GetOrdinal("created_at"))
+                            reader.GetInt16(reader.GetOrdinal("marriage_status_id"))
 
                         ));
                     }

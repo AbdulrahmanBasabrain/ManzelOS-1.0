@@ -11,17 +11,20 @@ namespace ManzelOS_DTOs.Employees
     {
 
         public int PropertyManagerId { get; set; }
+        public int PersonID { get; set; }
         public string UserName { get; set; }
         public string Password { get; set; }
-        public DateTime CreatedAt { get; set; }
+        public DateTime PropertyManagerCreatedAt { get; set; } = DateTime.Now;
 
-        public PropertyManagerDTO(int propertyManagerId, string userName, string password, DateTime createdAt)
+        public PropertyManagerDTO(int propertyManagerId, int personId, string userName, string password)
         {
 
             PropertyManagerId = propertyManagerId;
+            PersonID = personId;
             UserName = userName;
             Password = password;
-            CreatedAt = createdAt;
+            PropertyManagerCreatedAt = DateTime.Now;
+
         }
 
     }
