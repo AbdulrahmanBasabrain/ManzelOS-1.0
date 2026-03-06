@@ -3455,10 +3455,6 @@
             "type": "integer",
             "format": "int32"
           },
-          "personCreatedAt": {
-            "type": "string",
-            "format": "date-time"
-          },
           "userName": {
             "type": "string",
             "nullable": true

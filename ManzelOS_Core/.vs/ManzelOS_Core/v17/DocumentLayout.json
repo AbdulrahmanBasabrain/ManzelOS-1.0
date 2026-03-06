@@ -1,7 +1,21 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\dahmDev\\Documents\\my_docs\\coding\\projects\\ManzelOS_Solution\\ManzelOS_Core\\ManzelOS_Core\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DA00567C-AC53-6D29-B46C-9F987C8EB5F2}|..\\ManzelOS_data_access_layer\\ManzelOS_data_access_layer.csproj|c:\\users\\dahmdev\\documents\\my_docs\\coding\\projects\\manzelos_solution\\manzelos_core\\manzelos_data_access_layer\\payments\\clsbillingperiodtypedataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C2CBDC3-FC4A-1A4C-A1F5-A92C7C3A1A5A}|..\\ManzelOS_business_layer\\ManzelOS_business_layer.csproj|c:\\users\\dahmdev\\documents\\my_docs\\coding\\projects\\manzelos_solution\\manzelos_core\\manzelos_business_layer\\payments\\bills\\bill lookups\\clsbillingperiodtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CAA8F5A-5560-6ED0-4352-DE580D26749F}|ManzelOS_Core.csproj|c:\\users\\dahmdev\\documents\\my_docs\\coding\\projects\\manzelos_solution\\manzelos_core\\manzelos_core\\controllers\\paymentandbills\\paymentandbillslookups\\billingperiodtypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CAA8F5A-5560-6ED0-4352-DE580D26749F}|ManzelOS_Core.csproj|solutionrelative:controllers\\paymentandbills\\paymentandbillslookups\\billingperiodtypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BCB7D2F-EA75-48BC-B04B-446C70005424}|..\\ManzelOS_DTOs\\ManzelOS_DTOs.csproj|c:\\users\\dahmdev\\documents\\my_docs\\coding\\projects\\manzelos_solution\\manzelos_core\\manzelos_dtos\\payments\\billingperiodtypedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +23,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -18,6 +32,58 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "clsBillingPeriodTypeDataAccess.cs",
+              "DocumentMoniker": "C:\\Users\\dahmDev\\Documents\\my_docs\\coding\\projects\\ManzelOS_Solution\\ManzelOS_Core\\ManzelOS_data_access_layer\\Payments\\clsBillingPeriodTypeDataAccess.cs",
+              "RelativeDocumentMoniker": "..\\ManzelOS_data_access_layer\\Payments\\clsBillingPeriodTypeDataAccess.cs",
+              "ToolTip": "C:\\Users\\dahmDev\\Documents\\my_docs\\coding\\projects\\ManzelOS_Solution\\ManzelOS_Core\\ManzelOS_data_access_layer\\Payments\\clsBillingPeriodTypeDataAccess.cs",
+              "RelativeToolTip": "..\\ManzelOS_data_access_layer\\Payments\\clsBillingPeriodTypeDataAccess.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T13:20:59.305Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "clsBillingPeriodType.cs",
+              "DocumentMoniker": "C:\\Users\\dahmDev\\Documents\\my_docs\\coding\\projects\\ManzelOS_Solution\\ManzelOS_Core\\ManzelOS_business_layer\\Payments\\Bills\\Bill Lookups\\clsBillingPeriodType.cs",
+              "RelativeDocumentMoniker": "..\\ManzelOS_business_layer\\Payments\\Bills\\Bill Lookups\\clsBillingPeriodType.cs",
+              "ToolTip": "C:\\Users\\dahmDev\\Documents\\my_docs\\coding\\projects\\ManzelOS_Solution\\ManzelOS_Core\\ManzelOS_business_layer\\Payments\\Bills\\Bill Lookups\\clsBillingPeriodType.cs",
+              "RelativeToolTip": "..\\ManzelOS_business_layer\\Payments\\Bills\\Bill Lookups\\clsBillingPeriodType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T13:20:16.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BillingPeriodTypeController.cs",
+              "DocumentMoniker": "C:\\Users\\dahmDev\\Documents\\my_docs\\coding\\projects\\ManzelOS_Solution\\ManzelOS_Core\\ManzelOS_Core\\Controllers\\PaymentAndBills\\PaymentAndBillsLookUps\\BillingPeriodTypeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PaymentAndBills\\PaymentAndBillsLookUps\\BillingPeriodTypeController.cs",
+              "ToolTip": "C:\\Users\\dahmDev\\Documents\\my_docs\\coding\\projects\\ManzelOS_Solution\\ManzelOS_Core\\ManzelOS_Core\\Controllers\\PaymentAndBills\\PaymentAndBillsLookUps\\BillingPeriodTypeController.cs",
+              "RelativeToolTip": "Controllers\\PaymentAndBills\\PaymentAndBillsLookUps\\BillingPeriodTypeController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T13:19:06.932Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BillingPeriodTypeDTO.cs",
+              "DocumentMoniker": "C:\\Users\\dahmDev\\Documents\\my_docs\\coding\\projects\\ManzelOS_Solution\\ManzelOS_Core\\ManzelOS_DTOs\\Payments\\BillingPeriodTypeDTO.cs",
+              "RelativeDocumentMoniker": "..\\ManzelOS_DTOs\\Payments\\BillingPeriodTypeDTO.cs",
+              "ToolTip": "C:\\Users\\dahmDev\\Documents\\my_docs\\coding\\projects\\ManzelOS_Solution\\ManzelOS_Core\\ManzelOS_DTOs\\Payments\\BillingPeriodTypeDTO.cs",
+              "RelativeToolTip": "..\\ManzelOS_DTOs\\Payments\\BillingPeriodTypeDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T13:18:26.471Z",
+              "EditorCaption": ""
             }
           ]
         }

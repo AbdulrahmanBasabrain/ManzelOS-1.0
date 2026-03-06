@@ -84,3 +84,4 @@ C:\Users\dahmDev\Documents\my_docs\coding\projects\ManzelOS_Solution\ManzelOS_Co
 C:\Users\dahmDev\Documents\my_docs\coding\projects\ManzelOS_Solution\ManzelOS_Core\ManzelOS_Core\obj\Debug\net8.0\ManzelOS_Core.pdb
 C:\Users\dahmDev\Documents\my_docs\coding\projects\ManzelOS_Solution\ManzelOS_Core\ManzelOS_Core\obj\Debug\net8.0\ManzelOS_Core.genruntimeconfig.cache
 C:\Users\dahmDev\Documents\my_docs\coding\projects\ManzelOS_Solution\ManzelOS_Core\ManzelOS_Core\obj\Debug\net8.0\ref\ManzelOS_Core.dll
+C:\Users\dahmDev\Documents\my_docs\coding\projects\ManzelOS_Solution\ManzelOS_Core\ManzelOS_Core\obj\Debug\net8.0\ManzelOS_Core.MvcApplicationPartsAssemblyInfo.cs

@@ -16,7 +16,7 @@ namespace ManzelOS_data_access_layer.PaymentsData
 
             SqlConnection connection = new SqlConnection(clsDataAccessSettings.ConnectionString);
 
-            string query = "SELECT * FROM billing_periods";
+            string query = "SELECT * FROM billing_period_types";
 
             SqlCommand command = new SqlCommand(query, connection);
             BillingPeriodTypeDTO billingPeriodType = null;
@@ -33,7 +33,7 @@ namespace ManzelOS_data_access_layer.PaymentsData
                     while (reader.Read())
                     {
 
-                        billingPeriodType = new BillingPeriodTypeDTO(reader.GetInt32(reader.GetOrdinal("billing_period_type_id")), reader.GetString(reader.GetOrdinal("billing_period")));
+                        billingPeriodType = new BillingPeriodTypeDTO(reader.GetInt16(reader.GetOrdinal("billing_period_type_id")), reader.GetString(reader.GetOrdinal("billing_period")));
                         billingPeriodTypesList.Add(billingPeriodType);
                     }
 
